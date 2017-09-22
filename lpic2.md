@@ -1,5 +1,5 @@
 Hello lpic2
 
-´´´ bash
+``` bash
 find . -name "*.mp4" | xargs -I {} echo {}
-´´´
+```
