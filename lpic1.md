@@ -1,1 +1,0 @@
-Hello lpic1
