@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre mí
+permalink: /sobre-mi/
 ---
 
-Some information about you!
+Soy Ale, me gusta la terminal de GNU/Linux y voy a utilizar este blog para darla a conocer. También escribiré sobre certificaciones LPI, CISCO ... y cualquier otra cosa sugerente que se me ocurra. Sean bienvenidos.
 
-### More Information
+### Otras infos acerca de mi persona
 
-A place to include any other types of information that you'd like to include about yourself.
+#### Aficiones
+..* Informática en general (Software Libre en particular).
+..* Servidores y redes (sobre todo en mis Raspberry Pis).
+..* Herpetología: reptiles & anfibios (en el caso de los reptiles, sobre todo las especies herbívoras).
+..* Música: me gusta prácticamente de todo.
 
-### Contact me
+### Contacto
 
-[email@domain.com](mailto:email@domain.com)
+[gargolario@gmail.com](mailto:gargolario@gmail.com)
