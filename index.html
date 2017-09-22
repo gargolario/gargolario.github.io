@@ -21,13 +21,13 @@ layout: default
   {% for post in site.lpic1 %}
     <article class="lpic1">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ lpic1.url }}">{{ lpic1.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ lpic1.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
+      <a href="{{ site.baseurl }}{{ lpic1.url }}" class="read-more">Leer más</a>
     </article>
   {% endfor %}
 </div>
