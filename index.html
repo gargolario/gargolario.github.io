@@ -16,18 +16,3 @@ layout: default
     </article>
   {% endfor %}
 </div>
-
-<div class="lpic1">
-  {% for lpic1 in site.lpic1 %}
-    <article class="lpic1">
-
-      <h1><a href="{{ site.baseurl }}{{ lpic1.url }}">{{ lpic1.title }}</a></h1>
-
-      <div class="entry">
-        {{ lpic1.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ lpic1.url }}" class="read-more">Leer más</a>
-    </article>
-  {% endfor %}
-</div>
