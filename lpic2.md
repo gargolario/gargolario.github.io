@@ -1,3 +1,8 @@
+---
+layout: post
+title: LPIC2!
+---
+
 Hello lpic2
 
 ``` bash
