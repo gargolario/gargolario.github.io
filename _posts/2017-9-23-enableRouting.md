@@ -11,7 +11,7 @@ Esto podemos hacerlo de 3 formas:
 
 ## Método 1 (no persistente)
 ***
-Mandamos un 1 al archivo virtual ip_forward:
+Mandamos un 1 al archivo virtual **ip_forward**:
 
 ```bash
 echo 1 > /proc/sys/net/ipv4/ip_forward
