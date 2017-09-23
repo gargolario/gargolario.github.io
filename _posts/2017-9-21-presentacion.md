@@ -14,7 +14,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/octojekyll.png)
 
-##### Fuentes
+#### Fuentes
 *** 
 
 **Repo de mi blog:** <https://github.com/gargolario/gargolario.github.io>
