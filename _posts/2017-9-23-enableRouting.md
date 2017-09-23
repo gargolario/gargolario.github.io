@@ -20,7 +20,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ## Método 2 (no persistente)
 ***
-El comando ++ sysctl ++ modifica dinámicamente los parámetros del kernel Linux que cuelgan de ++/proc/sys++, por lo tanto,
+El comando **sysctl** modifica dinámicamente los parámetros del kernel Linux que cuelgan de **/proc/sys**, por lo tanto,
 sustituyendo las barras (**/**) por puntos (**.**), podemos cambiar el valor del bit de la siguiente forma:
 
 
