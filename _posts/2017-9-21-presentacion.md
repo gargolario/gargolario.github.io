@@ -6,7 +6,7 @@ title: Jekyll mola!
 Sí, Jekyll mola. ¿Y por qué?
 
 Porque te permite crear un blog estático en pocos minutos.
-Este blog <https://gargolario.github.io> es un fork de <https://barryclark/jekyll-now>. 
+Este blog, <https://gargolario.github.io>, es un fork de <https://barryclark/jekyll-now> y está hecho con [**jekyll**](https://jekyllrb.com). 
 
 Si te animas a crear un blog estático, pero potente, clona el mío o el de Barry y consulta las fuentes que te pongo más abajo para tenerlo funcionando en pocos minutos.
 
@@ -16,8 +16,8 @@ Halof!!!
 
 ##### Fuentes
 
-**Repo de mi blog:** <https://gargolario.github.io>
-**Repo de Barry Clark:** <https://barryclark/jekyll-now>
+**Repo de mi blog:** <https://gargolario.github.io> --hit<Enter>
+**Repo de Barry Clark:** <https://barryclark/jekyll-now> --hit<Enter>
 **Web de Jekyll:** <https://jekyllrb.com>
 
 
