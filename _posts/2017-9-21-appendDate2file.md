@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Renombrar archivo añadiendo fecha
+title:  Bash - Renombrar archivo añadiendo fecha
 date:   2017-9-23
 categories: bash
 ---
