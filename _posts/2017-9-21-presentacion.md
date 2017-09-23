@@ -16,8 +16,12 @@ Halof!!!
 
 ##### Fuentes
 
-**Repo de mi blog:** <https://gargolario.github.io> --hit<Enter>
-**Repo de Barry Clark:** <https://barryclark/jekyll-now> --hit<Enter>
+**Repo de mi blog:** <https://gargolario.github.io>
+
+
+**Repo de Barry Clark:** <https://barryclark/jekyll-now>
+
+
 **Web de Jekyll:** <https://jekyllrb.com>
 
 
