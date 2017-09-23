@@ -41,5 +41,5 @@ La persistencia hace referencia a si el valor se pierde en cada reinicio del sis
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/logo@2x.png)(www.lpi.org)
+[![_config.yml]({{ site.baseurl }}/images/logo@2x.png)](www.lpi.org)
 
