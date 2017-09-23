@@ -42,4 +42,5 @@ La persistencia hace referencia a si el valor se pierde en cada reinicio del sis
 Halof!!!
 
 [![_config.yml]({{ site.baseurl }}/images/logo@2x.png)](www.lpi.org)
+[![alt text](https://www.gravatar.com/avatar/… "Let's check Jason S' profile page")](https://meta.stackoverflow.com/users/44330/jason-s)
 
