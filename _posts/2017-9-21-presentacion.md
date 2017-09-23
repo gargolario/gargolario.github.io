@@ -15,11 +15,12 @@ Halof!!!
 ![_config.yml]({{ site.baseurl }}/images/octojekyll.png)
 
 ##### Fuentes
+*** 
 
-**Repo de mi blog:** <https://gargolario.github.io>
+**Repo de mi blog:** <https://github.com/gargolario/gargolario.github.io>
 
 
-**Repo de Barry Clark:** <https://barryclark/jekyll-now>
+**Repo de Barry Clark:** <https://github.com/barryclark/jekyll-now>
 
 
 **Web de Jekyll:** <https://jekyllrb.com>
