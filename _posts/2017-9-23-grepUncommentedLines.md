@@ -1,12 +1,14 @@
 ---
 layout: post
-title: LPIC1 - Grep only uncommented lines
+title:  Grep only uncommented lines
+date:	2017-9-23
+categories:	LPIC-1
 ---
 
 In our daily work as sysadmins we sometimes bump into very large config files when we are only interested in a line or two.
 In this scenario our old good friend **grep** comes in handy.
 
-## Get rid of all lines containing the pound symbol (**#**)
+## Get rid of all lines containing **#**
 ***
 We use the **-v** parameter to invert the search
 

@@ -32,15 +32,7 @@
             <a href="{{ site.baseurl }}/indice">Índice</a>
           </nav>
         </header>
-
- <div class="container" >
-         <div id="archives">
-             Vista por <a title="The complete archive of {{ site.name }}'s Blog by category"
-                          href="{{ site.url}}{{ site.baseurl }}//categoryview">categorías</a>
-         </div>
-     </div>
-   </div>
-
+	
       </div>
     </div>
 
