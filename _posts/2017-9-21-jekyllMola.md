@@ -7,7 +7,7 @@ categories: jekyll markdown
 
 Sí, Jekyll mola. ¿Y por qué?
 
-Porque te permite crear un blog estático en pocos minutos en **GitHub Pages**(https://pages.github.com/) y gestionar tus entradas de blog cómodamente usando el lenguaje **markdown**.
+Porque te permite crear un blog estático en pocos minutos en [**GitHub Pages**](https://pages.github.com/) y gestionar tus entradas de blog cómodamente usando el lenguaje **markdown**.
 
 Este blog, <https://gargolario.github.io>, es un fork de <https://barryclark/jekyll-now> y está hecho con [**jekyll**](https://jekyllrb.com). 
 
