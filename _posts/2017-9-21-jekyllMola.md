@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll mola!
 date: 2017-9-21
-categories: Jekyll Markdown
+categories: Jekyll/Markdown
 ---
 
 Sí, Jekyll mola. ¿Y por qué?
