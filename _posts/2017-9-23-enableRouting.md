@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Habilitar enrutamiento en Linux
-date:	2017-9-23
-categories:	LPIC-2
+title: Habilitar enrutamiento en Linux
+date: 2017-9-23
+categories: LPIC-2
 ---
 
 La función de enrutamiento está integrada de forma nativa en el núcleo Linux, es decir, cualquier sistema GNU/Linux es un
