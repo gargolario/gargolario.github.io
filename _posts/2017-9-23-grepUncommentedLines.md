@@ -2,7 +2,7 @@
 layout: post
 title: Grep only uncommented lines
 date: 2017-9-23
-categories: LPIC1
+categories: lpic1
 ---
 
 In our daily work as sysadmins we sometimes bump into very large config files when we are only interested in a line or two.
@@ -28,3 +28,4 @@ grep -v '^#' config_file
 Halof!!!
 
 [![_config.yml]({{ site.baseurl }}/images/logo@2x.png)](https://www.lpi.org)
+
