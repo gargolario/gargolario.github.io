@@ -32,9 +32,16 @@
             <a href="{{ site.baseurl }}/indice">Índice</a>
           </nav>
         </header>
-	
-      </div>
-    </div>
+
+ <div class="container" >
+         <div id="archives">
+             Vista por <a title="The complete archive of {{ site.name }}'s Blog by category"
+                          href="{{ site.url}}{{ site.baseurl }}//categoryview">categorías</a> or
+	     <a title="The complete archive of {{ site.name }}'s Blog by month" href="{{ site.url }}/monthview">fecha</a>
+         </div>
+ </div>
+
+
 
     <div id="main" role="main" class="container">
       {{ content }}
