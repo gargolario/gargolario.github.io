@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Jekyll mola!
-date:  2017-9-21
-categories:	jekyll/markdown
+date: 2017-9-21
+categories: jekyll/markdown
 ---
 
 Sí, Jekyll mola. ¿Y por qué?
