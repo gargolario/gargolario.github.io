@@ -20,3 +20,7 @@ Connection to 192.168.1.12 80 port[tcp/http] succeeded!
 ## Notas:
 + La opción **-v** proporciona verbosidad.
 + La opción **-z** le indica a **nc** que compruebe la conexión, sin enviar datos.
+
+Halof!!!
+
+[![_config.yml]({{ site.baseurl }}/images/logo@2x.png)](https://www.lpi.org)
