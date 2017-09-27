@@ -20,7 +20,7 @@ Halof!!!
 #### Fuentes
 *** 
 
-**Repo de mi blog:** <https://github.com/gargolario/gargolario.github.io>
+**Repo de mi blog:** <https://github.com/gargolario/shelllavie.github.io>
 
 
 **Repo de Barry Clark:** <https://github.com/barryclark/jekyll-now>
