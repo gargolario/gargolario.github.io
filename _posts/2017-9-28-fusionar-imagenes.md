@@ -45,6 +45,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)(https://www.imagemagick.org)
 
+[![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)](https://www.imagemagick.org)
 
 ## Notas:
 + La opción **-append** coloca las imágenes verticalmente.
