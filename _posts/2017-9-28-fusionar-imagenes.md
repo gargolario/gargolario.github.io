@@ -2,6 +2,7 @@
 layout: post
 title: Fusionar imágenes con Imagemagick
 date: 2017-9-28
+image: /images/imagemagick.jpg
 categories: imagemagick bash
 ---
 
