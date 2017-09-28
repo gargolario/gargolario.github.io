@@ -2,6 +2,7 @@
 layout: post
 title: Mofificando el estado de un repositorio con zypper
 date: 2017-9-28
+image: /images/opensuse-logo.png
 categories: zypper opensuse
 ---
 
