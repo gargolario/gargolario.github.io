@@ -43,7 +43,6 @@ Pues hala, a disfrutar fusionando!
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)(https://www.imagemagick.org)
 
 [![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)](https://www.imagemagick.org)
 
