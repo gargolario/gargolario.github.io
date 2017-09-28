@@ -23,16 +23,16 @@ zypper mr -e VLC
 ```bash
 zypper mr -d VLC 
 ```
-### Actualizar repo automáticamente
+### Actualización automática del repo
 
 ```bash
 zypper mr -r VLC
 ```
-### No actualizar repo automáticamente
+### Desactivación de la actualización automática del repo
 
 ```bash
 zypper mr -R VLC
-
+```
 
 Halof!!!
 
@@ -40,7 +40,12 @@ Halof!!!
 [![_config.yml]({{ site.baseurl }}/images/2000px-OpenSUSE_Geeko_button_bling.svg.png)](https://es.opensuse.org)
 
 ## Notas:
-+ La opción **-append** coloca las imágenes verticalmente.
++ **zypper** puede referirse a un repo por su nombre, alias o número indistintamente. Para ver una lista de todos los repositorios con toda esta información podemos utilizar la siguiente orden en consola:
+
+```bash
+zypper repos
+```
+
 + La opción **+append** coloca las imágenes horizontalmente.
 
 ## Fuentes
