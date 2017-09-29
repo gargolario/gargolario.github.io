@@ -2,8 +2,14 @@
 layout: post
 title: Mofificando el estado de un repositorio con zypper
 date: 2017-9-28
-image: /images/opensuse-logo.png
+summary: Control de repositorios con zypper
 categories: zypper opensuse
+author: Ale gargolario
+image: /images/opensuse-logo.png
+tags:
+ - opensuse
+ - repositorios
+ - zypper
 ---
 
 Muchas veces añadimos un repositorio de terceros a nuestro querido **openSuSE** para instalar tal o cual
