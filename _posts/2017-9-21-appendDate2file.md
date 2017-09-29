@@ -22,4 +22,4 @@ archivo.png.2017-09-23
 ```
 Halof!!!
 
-(/images/terminal.png)
+![_config.yml]({{ site.baseurl }}/images/terminal.png)
