@@ -2,7 +2,13 @@
 layout: post
 title: Grep only uncommented lines
 date: 2017-9-23
+summary: Grep makes our sysadmin lives a lot easier
 categories: lpic1
+author: Ale gargolario
+image: /images/logo@2x.png
+tags:
+ - grep
+ - bash
 ---
 
 In our daily work as sysadmins we sometimes bump into very large config files when we are only interested in a line or two.
