@@ -2,7 +2,15 @@
 layout: post
 title: Jekyll mola!
 date: 2017-9-21
+summary: Crea un blog muy chulo en pocos minutos
 categories: jekyll markdown
+author: Ale gargolario
+image: /images/octojekyll.png
+tags:
+ - jekyll
+ - markdown
+ - github
+ - github pages
 ---
 
 Sí, Jekyll mola. ¿Y por qué?
