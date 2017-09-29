@@ -2,8 +2,14 @@
 layout: post
 title: Fusionar imágenes con Imagemagick
 date: 2017-9-28
+summary: Trabajando imágenes desde la terminal
 image: /images/imagemagick.jpg
 categories: imagemagick bash
+author: Ale gargolario
+image: /images/imagemagick.jpg
+tags: 
+ - imagemagick
+ - bash
 ---
 
 Si queremos fusionar dos o más imágenes en una, podemos recurrir a la terminal y usar el comando **convert** del paquete de software
