@@ -7,7 +7,7 @@ categories: bash
 author: Ale gargolario
 image: /images/terminal.png 
 tags:
-- bash
+ - bash
 
 ---
 Una buena forma de no confundirnos con versiones de un mismo archivo es incluir la fecha de modificación/creación de dicho archivo en su propio nombre. Para ello, podemos utilizar la siguiente orden:
