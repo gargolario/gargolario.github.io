@@ -5,7 +5,7 @@ date: 2017-9-23
 summary: Facilitando el manejo de archivos
 categories: bash
 author: Ale gargolario
-image: 
+image: /images/terminal.png 
 tags:
 - bash
 
@@ -22,4 +22,4 @@ archivo.png.2017-09-23
 ```
 Halof!!!
 
-(images/terminal.png)
+(/images/terminal.png)
