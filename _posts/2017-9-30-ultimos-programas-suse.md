@@ -50,7 +50,7 @@ mumble-32bit-1.2.17-1.2.x86_64                sáb 30 sep 2017 13:15:08 CEST
 Halof!!!
 
 
-[![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)]
+![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
 
 ## Notas:
 + Los argumentos **-qa** significan *query all*.
