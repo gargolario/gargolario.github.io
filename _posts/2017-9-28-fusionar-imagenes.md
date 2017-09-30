@@ -4,7 +4,7 @@ title: Fusionar imágenes con Imagemagick
 date: 2017-9-28
 summary: Trabajando imágenes desde la terminal
 image: /images/imagemagick.jpg
-categories: imagemagick bash
+categories: imagemagick 
 author: Ale gargolario
 image: /images/imagemagick.jpg
 tags: 
