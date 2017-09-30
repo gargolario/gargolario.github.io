@@ -3,7 +3,7 @@ layout: post
 title: Descubriendo puertos abiertos con nc
 date: 2017-9-26
 summary: Una forma cómoda de controlar los puertos de una máquina GNU/Linux
-categories: bash lpic2
+categories: bash lpic2 redes
 author: Ale gargolario
 image: /images/terminal.png
 tags:
@@ -11,6 +11,7 @@ tags:
  - puertos
  - nc
  - lpic2
+ - redes
 ---
 Una forma rápida y eficaz de comprobar qué puertos tiene abiertos un sistema consiste en usar el comando **nc**.
 Supongamos que queremos saber si la máquina con IP 192.168.1.12 de nuestra red local tiene un servidor web activo
