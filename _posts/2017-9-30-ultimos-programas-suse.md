@@ -56,3 +56,4 @@ Halof!!!
 + Los argumentos **-qa** significan *query all*.
 + En **rpm -qa --last | head** usamos la tubería hacia **head** para obtener las primeras líneas de la salida del comando,
 es decir, lo último que hemos instalado.
++ Para afinar más en nuestras búsquedas es recomendable aplicar filtros con, por ejemplo, **grep**.
