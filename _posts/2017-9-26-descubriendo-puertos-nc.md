@@ -3,7 +3,7 @@ layout: post
 title: Descubriendo puertos abiertos con nc
 date: 2017-9-26
 summary: Una forma cómoda de controlar los puertos de una máquina GNU/Linux
-categories: bash lpic2 redes
+categories: lpic2 redes
 author: Ale gargolario
 image: /images/terminal.png
 tags:
