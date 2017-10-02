@@ -14,7 +14,7 @@ tags:
 
 
 En este post vamos a ver, de dos formas diferentes, cómo comprobar por consola cuáles han sido los últimos programas 
-que hemos instalado en nuestro openSUSSE.
+que hemos instalado en nuestro openSUSE.
 
 ### 1) Hacemos un cat al archivo /var/log/zypp/history
 
