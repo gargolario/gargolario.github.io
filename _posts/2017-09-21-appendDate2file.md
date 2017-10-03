@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Renombrar archivo añadiendo fecha
-date: 2017-9-23
+date: 2017-09-23
 summary: Facilitando el manejo de archivos
 categories: miscelánea
 author: Ale gargolario
 image: /images/terminal.png
-comments: true
 tags:
  - bash
 
