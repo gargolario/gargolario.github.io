@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Jekyll mola!
-date: 2017-9-21
+date: 2017-09-21
 summary: Crea un blog muy chulo en pocos minutos
 categories: jekyll markdown
 author: Ale gargolario
 image: /images/octojekyll.png
-comments: true
 tags:
  - jekyll
  - markdown
