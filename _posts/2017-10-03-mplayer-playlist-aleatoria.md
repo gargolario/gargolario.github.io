@@ -13,9 +13,9 @@ tags:
  - bash
  - playlist
 ---
-Aunque hay infinidad de reproductores multimedia con interfaz gráfica, siempre me ha gustado la idea de un cómodo y frugal reproductor por línea de comandos. Ese reproductor se llama **mplayer**. En este post vamos a ver cómo podemos crear listas de reproducción y reproducirlas de forma aleatoria.
+Aunque hay infinidad de reproductores multimedia con interfaz gráfica, siempre me ha gustado la idea de un práctico y frugal reproductor por línea de comandos. Ese reproductor se llama **mplayer** y te permite gestionar tu música (y vídeos) de forma muy cómoda desde la terminal. En este post vamos a ver cómo podemos crear listas de reproducción y reproducirlas de forma aleatoria.
 
-En primer lugar, utilizaremos el maravilloso comando **find** para buscar todos los archivos **.ogg** de nuestro **$HOME**:
+En primer lugar, utilizaremos el maravilloso comando **find** para buscar todos los archivos **.ogg** de nuestro **$HOME** y crear la lista de reproduccón **mi_playlist**.
 
 ## Búsqueda de archivos *.ogg* con *find* y redirección al archivo de texto *mi_playlist*
 ``` bash
@@ -30,6 +30,7 @@ mplayer -playlist mi_playlist -shuffle
 + Si queremos reproducir de forma aleatoria toda la música que hay en un directorio (por ejemplo **~/Música**), basta con la siguiente orden:
 ```bash
 mplayer ~/Música/* -shuffle
+```
 
 Halof!!!
 
