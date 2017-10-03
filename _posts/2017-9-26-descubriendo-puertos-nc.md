@@ -6,7 +6,6 @@ summary: Una forma cómoda de controlar los puertos de una máquina GNU/Linux
 categories: lpic2 redes
 author: Ale gargolario
 image: /images/terminal.png
-comments: true
 tags:
  - bash
  - puertos
@@ -27,7 +26,7 @@ En caso afirmativo, veríamos por pantalla el siguiente resultado:
 Connection to 192.168.1.12 80 port[tcp/http] succeeded!
 ```
 
-## Notas:
+#### Notas:
 + La opción **-v** proporciona verbosidad.
 + La opción **-z** le indica a **nc** que compruebe la conexión, sin enviar datos.
 
