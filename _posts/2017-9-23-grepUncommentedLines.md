@@ -6,6 +6,7 @@ summary: Grep makes our sysadmin lives a lot easier
 categories: lpic1
 author: Ale gargolario
 image: /images/logo@2x.png
+comments: true
 tags:
  - grep
  - bash
