@@ -6,6 +6,7 @@ summary: Comparando modelos de comunicación por capas
 categories: redes cisco 
 author: Ale gargolario
 image: /images/network.png
+comments: true
 tags:
  - redes
  - cisco
