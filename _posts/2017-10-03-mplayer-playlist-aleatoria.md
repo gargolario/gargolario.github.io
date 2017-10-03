@@ -13,7 +13,7 @@ tags:
  - bash
  - playlist
 ---
-Aunque hay infinidad de reproductores multimedia con interfaz gráfica, siempre me ha gustado la idea de un práctico y frugal reproductor por línea de comandos. Ese reproductor se llama **mplayer** y te permite gestionar tu música (y vídeos) de forma muy cómoda desde la terminal. En este post vamos a ver cómo podemos crear listas de reproducción y reproducirlas de forma aleatoria.
+Aunque hay infinidad de reproductores multimedia con interfaz gráfica, siempre me ha gustado la idea de un práctico y frugal reproductor por línea de comandos. Ese reproductor se llama [**mplayer**](http://www.mplayerhq.hu/design7/news.html) y te permite gestionar tu música (y vídeos) de forma muy cómoda desde la terminal. En este post vamos a ver cómo podemos crear listas de reproducción y reproducirlas de forma aleatoria.
 
 En primer lugar, utilizaremos el maravilloso comando **find** para buscar todos los archivos **.ogg** de nuestro **$HOME** y crear la lista de reproduccón **mi_playlist**:
 
@@ -21,7 +21,7 @@ En primer lugar, utilizaremos el maravilloso comando **find** para buscar todos 
 ``` bash
 find ~ -name "*.ogg" > mi_playlist
 ```
-Ahora utilizamos *mplayer* para reproducir la lista que acabamos de crear de forma aleatoria:
+Ahora utilizamos **mplayer** para reproducir la lista que acabamos de crear de forma aleatoria:
 
 ### Reproducción de forma aleatoria de la playlist
 ``` bash
@@ -32,7 +32,7 @@ mplayer -playlist mi_playlist -shuffle
 ```bash
 mplayer ~/Música/* -shuffle
 ```
-+ Mplayer también dispone de *GUIs* como, por ejemplo, **SMplayer**.
++ Mplayer también dispone de *GUIs* como, por ejemplo, [**SMplayer**](http://www.smplayer.info/).
 
 Halof!!!
 
