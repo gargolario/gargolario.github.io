@@ -6,6 +6,7 @@ summary: Toda máquina con kernel Linux es un router en potencia
 categories: lpic2 redes
 author: Ale gargolario
 image: /images/logo@2x.png
+comments: true
 tags:
  - linux
  - lpic2
