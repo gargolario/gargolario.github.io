@@ -6,6 +6,7 @@ summary: Control de repositorios con zypper
 categories: zypper opensuse
 author: Ale gargolario
 image: /images/opensuse-logo.png
+comments: true
 tags:
  - opensuse
  - repositorios
