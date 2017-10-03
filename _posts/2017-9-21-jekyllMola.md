@@ -6,6 +6,7 @@ summary: Crea un blog muy chulo en pocos minutos
 categories: jekyll markdown
 author: Ale gargolario
 image: /images/octojekyll.png
+comments: true
 tags:
  - jekyll
  - markdown
