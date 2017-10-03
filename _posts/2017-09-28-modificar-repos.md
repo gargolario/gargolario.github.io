@@ -6,7 +6,6 @@ summary: Control de repositorios con zypper
 categories: zypper opensuse
 author: Ale gargolario
 image: /images/opensuse-logo.png
-comments: true
 tags:
  - opensuse
  - repositorios
@@ -47,14 +46,14 @@ Halof!!!
 
 [![_config.yml]({{ site.baseurl }}/images/opensuse-logo.png)](https://es.opensuse.org)
 
-## Notas:
+#### Notas:
 + **zypper** puede referirse a un repo por su nombre, alias o número indistintamente. Para ver una lista de todos los repositorios con toda esta información podemos utilizar la siguiente orden en consola:
 
 ```bash
 zypper repos
 ```
 
-## Fuentes
+#### Fuentes
 *** 
 
 **Web de opensuse:** <https://es.opensuse.org>
