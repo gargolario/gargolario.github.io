@@ -7,6 +7,7 @@ image: /images/imagemagick.jpg
 categories: imagemagick 
 author: Ale gargolario
 image: /images/imagemagick.jpg
+comments: true
 tags: 
  - imagemagick
  - bash
