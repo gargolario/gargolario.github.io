@@ -13,8 +13,7 @@ tags:
  - bash
  - playlist
 ---
-El comando **tee** tiene de particular que lee desde la entrada estándar (**stdin**) y escribe tanto a la salida estándar
-(**stdout**) como a un archivo de forma simultánea. 
+Aunque hay infinidad de reproductores multimedia con interfaz gráfica, siempre me ha gustado la idea de un cómodo y frugal reproductor por línea de comandos. Ese reproductor se llama **mplayer**. En este post vamos a ver cómo podemos crear listas de reproducción y reproducirlas de forma aleatoria.
 
 En primer lugar, utilizaremos el maravilloso comando **find** para buscar todos los archivos **.ogg** de nuestro **$HOME**:
 
