@@ -1,7 +1,7 @@
 ---
 layout: post
 title: dpkg & rpm - descubrir a qué paquete pertenece un archivo
-date: 2017-10-3
+date: 2017-10-03
 summary: ¿Qué paquete instaló qué archivo?
 categories: dpkg rpm
 author: Ale gargolario
