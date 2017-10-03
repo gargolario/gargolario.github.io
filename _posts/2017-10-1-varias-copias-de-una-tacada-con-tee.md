@@ -5,7 +5,8 @@ date: 2017-10-1
 summary: Cómo hacer múltiples copias de un archivo de una tacada 
 categories: miscelánea
 author: Ale gargolario
-image: /images/terminal-suse.png 
+image: /images/terminal-suse.png
+comments: true
 tags:
  - bash
  - tee
