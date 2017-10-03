@@ -6,6 +6,7 @@ summary: Ver por consola los últimos paquetes instalados en openSuSE
 categories: zypper opensuse rpm
 author: Ale gargolario
 image: /images/terminal-suse.png
+comments: true
 tags:
  - opensuse
  - rpm
