@@ -6,7 +6,6 @@ summary: Updating packages to version in a different repo
 categories: zypper opensuse 
 author: Ale gargolario
 image: /images/terminal-suse.png
-comments: true
 tags:
  - opensuse
  - zypper
@@ -33,7 +32,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
 
-## Notes:
+#### Notes:
 + When specifying a repo to **zypper**, you can use either its **name**, **url** or **number**. To get these values,
 you can type **zypper repos** into the terminal.
 
