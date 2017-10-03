@@ -5,7 +5,8 @@ date: 2017-9-23
 summary: Facilitando el manejo de archivos
 categories: miscelánea
 author: Ale gargolario
-image: /images/terminal.png 
+image: /images/terminal.png
+comments: true
 tags:
  - bash
 
