@@ -6,6 +6,7 @@ summary: ¿Qué paquete instaló qué archivo?
 categories: dpkg rpm
 author: Ale gargolario
 image: /images/terminal-suse.png
+comments: true
 tags:
  - dpkg
  - rpm
