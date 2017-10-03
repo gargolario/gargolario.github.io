@@ -6,7 +6,6 @@ summary: ¿Qué paquete instaló qué archivo?
 categories: dpkg rpm
 author: Ale gargolario
 image: /images/terminal-suse.png
-comments: true
 tags:
  - dpkg
  - rpm
@@ -40,7 +39,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
 
-## Notas:
+#### Notas:
 + **dpkg** significa **Debian GNU/Linux Package Manager**.
 + **rpm** significó inicialmente **Red Hat Package Manager** y después se transformó en el acrónimo recursivo
 **RPM Package Manager**.
