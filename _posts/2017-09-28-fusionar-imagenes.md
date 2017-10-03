@@ -7,7 +7,6 @@ image: /images/imagemagick.jpg
 categories: imagemagick 
 author: Ale gargolario
 image: /images/imagemagick.jpg
-comments: true
 tags: 
  - imagemagick
  - bash
@@ -54,11 +53,11 @@ Halof!!!
 
 [![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)](https://www.imagemagick.org)
 
-## Notas:
+#### Notas:
 + La opción **-append** coloca las imágenes verticalmente.
 + La opción **+append** coloca las imágenes horizontalmente.
 
-## Fuentes
+#### Fuentes
 *** 
 
 **Web de imagemagick:** <https://www.imagemagick.org>
