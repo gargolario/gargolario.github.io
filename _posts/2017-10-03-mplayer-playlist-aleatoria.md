@@ -27,7 +27,7 @@ Ahora utilizamos *mplayer* para reproducir la lista que acabamos de crear de for
 ``` bash
 mplayer -playlist mi_playlist -shuffle
 ```
-## Notas:
+#### Notas:
 + Si queremos reproducir de forma aleatoria toda la música que hay en un directorio (por ejemplo **~/Música**), basta con la siguiente orden:
 ```bash
 mplayer ~/Música/* -shuffle
@@ -42,4 +42,5 @@ Halof!!!
 *** 
 
 **Web de Mplayer:** <http://www.mplayerhq.hu/design7/news.html>
+
 **Web de SMplayer:** <http://www.smplayer.info/>
