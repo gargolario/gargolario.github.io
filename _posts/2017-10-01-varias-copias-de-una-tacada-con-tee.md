@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Hacer múltiples copias de un archivo con tee
-date: 2017-10-1
+date: 2017-10-01
 summary: Cómo hacer múltiples copias de un archivo de una tacada 
 categories: miscelánea
 author: Ale gargolario
 image: /images/terminal-suse.png
-comments: true
 tags:
  - bash
  - tee
@@ -30,7 +29,7 @@ Esto daría como resultado:
 ``` bash
 foto1.png foto2.png foto3.png foto4.png foto5.png foto6.png foto7.png
 ```
-## Notas:
+#### Notas:
 + En lugar de leer desde **stdin**, el primer redireccionamiento (**<**) le permite a **tee** leer desde el archivo **foto.png**.
 + El segundo redireccionamiento (**>**) envía simultáneamente la salida a **/dev/null** (para evitar ver un montón de símbolos
 binarios inentiligibles por **stdout**, es decir, por pantalla) y al archivo **foto{1..7}.png** que, en realidad, no es un archivo
