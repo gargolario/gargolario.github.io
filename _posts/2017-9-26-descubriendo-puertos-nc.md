@@ -6,6 +6,7 @@ summary: Una forma cómoda de controlar los puertos de una máquina GNU/Linux
 categories: lpic2 redes
 author: Ale gargolario
 image: /images/terminal.png
+comments: true
 tags:
  - bash
  - puertos
