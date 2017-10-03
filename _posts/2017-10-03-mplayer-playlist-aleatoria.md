@@ -6,7 +6,6 @@ summary: Creación de playlists y reproducción aleatoria desde la terminal
 categories: mplayer find
 author: Ale gargolario
 image: /images/mplayer.png
-comments: true
 tags:
  - find
  - mplayer
