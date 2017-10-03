@@ -52,7 +52,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
 
-### Notas:
+#### Notas:
 + Los argumentos **-qa** significan *query all*.
 + En **rpm -qa --last | head** usamos la tubería hacia **head** para obtener las primeras líneas de la salida del comando,
 es decir, lo último que hemos instalado.
