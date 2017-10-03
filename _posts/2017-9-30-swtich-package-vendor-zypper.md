@@ -6,6 +6,7 @@ summary: Updating packages to version in a different repo
 categories: zypper opensuse 
 author: Ale gargolario
 image: /images/terminal-suse.png
+comments: true
 tags:
  - opensuse
  - zypper
