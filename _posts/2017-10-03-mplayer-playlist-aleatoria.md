@@ -36,7 +36,7 @@ mplayer ~/Música/* -shuffle
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/mplayer.png)
+[![_config.yml]({{ site.baseurl }}/images/mplayer.png)](http://www.mplayerhq.hu/design7/news.html)
 
 #### Fuentes y recursos de interés
 *** 
