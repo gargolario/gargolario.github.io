@@ -11,7 +11,7 @@ tags:
  - terminal
 ---
 
-Here's a little mplayer cheat to have some fun at the command line:
+Here's a little mplayer cheat sheet to have some fun at the command line:
 
 
 **[** and **]**, **decrease** and **increase speed** by 10%
