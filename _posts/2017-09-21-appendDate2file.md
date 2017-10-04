@@ -29,7 +29,7 @@ archivo.png.2017-09-23
 + La sustitución de comandos, `$(date +%F)`, también puede implementarse con 
 ```bash
 `date +%F`
-```. 
+```
 
 Halof!!!
 
