@@ -3,7 +3,7 @@ layout: post
 title: Hacer múltiples copias de un archivo con tee
 date: 2017-10-01
 summary: Cómo hacer múltiples copias de un archivo de una tacada 
-categories: miscelánea
+categories: bash
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
