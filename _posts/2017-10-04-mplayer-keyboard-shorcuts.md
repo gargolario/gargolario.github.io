@@ -13,22 +13,22 @@ tags:
 
 Here's a little mplayer cheat to have some fun at the command line.  
 
-**[** and **]** **decrease** and **increase speed** by 10%
+**[** and **]**, **decrease** and **increase speed** by 10%
 
 
-**{** and **}** **decrease** and **increase speed**
+**{** and **}**, **decrease** and **increase speed**
 
 
-**backspace** **reset** speed to normal
+**backspace**, **reset** speed to normal
 
 
-**<** and **>** go *backwards* and *forwards* in playlist
+**<** and **>**, go **backwards** and **forwards** in playlist
 
 
-**/** or **9** *decrease volume*
+**/** or **9**, **decrease volume**
 
 
-**\*** or **0** <span style="color:grey">**increase volume**</span>
+**\*** or **0**, **increase volume**
 
 Halof!!!
 
