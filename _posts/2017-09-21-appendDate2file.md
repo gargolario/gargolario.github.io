@@ -26,7 +26,7 @@ archivo.png.2017-09-23
 ```
 
 #### Notas:
-+ La sustitución de comandos, **$(...)**, también puede implementarse con **`...`**. 
++ La sustitución de comandos, `$(date +%F)`, también puede implementarse con ``date +%F``. 
 
 Halof!!!
 
