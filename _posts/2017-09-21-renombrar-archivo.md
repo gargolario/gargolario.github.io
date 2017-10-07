@@ -3,11 +3,11 @@ layout: post
 title: Renombrar archivo añadiendo fecha
 date: 2017-09-23
 summary: Facilitando el manejo de archivos
-categories: bash
+categories: lpic1
 author: Ale gargolario
 image: /images/terminal.png
 tags:
- - terminal
+ - lpic1
  - bash
  - sustitución de comandos
 ---
