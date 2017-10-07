@@ -9,7 +9,7 @@ image: /images/terminal.png
 tags:
  - lpic1
  - bash
- - sustitución de comandos
+ - sustitución-de-comandos
 ---
 
 Una buena forma de no confundirnos con versiones de un mismo archivo es incluir la fecha de modificación/creación de dicho archivo en su propio nombre. Para ello, podemos hacer uso de la sustitución de comandos.
