@@ -3,7 +3,7 @@ layout: post
 title: Equivalencia de los modelos OSI y TCP
 date: 2017-9-30
 summary: Comparando modelos de comunicación por capas
-categories: redes cisco 
+categories: cisco 
 author: Ale gargolario
 image: /images/network.png
 tags:
