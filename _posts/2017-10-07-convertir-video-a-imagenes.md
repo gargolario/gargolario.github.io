@@ -30,9 +30,9 @@ Halof!!!
 
 [![_config.yml]({{ site.baseurl }}/images/FFmpeg.png)](https://www.ffmpeg.org/)
 
-###Notas:
-+ El argumento **-i** indica el archivo que **ffmpeg** toma como **input**.
-+ El **%4d** expande el nombre de los archivos resultantes a **foto** + *4 dígitos* + **.jpg**.
+#### Notas:
++ El argumento **-i** indica el archivo que **ffmpeg** toma como **input**, es decir, *video.musical.mp4*.
++ El **%4d** expande el nombre de los archivos resultantes a **foto** + *4 dígitos* + **.jpg**, es decir, *foto0001.jpg*, *foto0002.jpg*, etc.
 
 #### Fuentes y recursos de interés:
 
