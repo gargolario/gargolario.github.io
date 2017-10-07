@@ -11,6 +11,7 @@ tags:
  - lpic2
  - enrutamiento
  - redes
+ - bash
 ---
 
 La función de enrutamiento está integrada de forma nativa en el núcleo Linux, es decir, cualquier sistema GNU/Linux es un
