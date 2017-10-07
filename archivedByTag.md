@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post by Tag
+title: Vista por etiquetas
 permalink: /tagview/
 sitemap: false
 ---
