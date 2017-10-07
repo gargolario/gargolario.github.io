@@ -3,13 +3,13 @@ layout: post
 title: Switch package vendor with zypper
 date: 2017-9-30
 summary: Updating packages to version in a different repo
-categories: zypper opensuse 
+categories: opensuse 
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
  - opensuse
  - zypper
- - yast
+ - bash
 ---
 
 Everyone who has ever used **openSUSE** is bound to know what **YaST** is. That's right: *Yet another Setup Tool* ... and a lot more!!!
