@@ -3,12 +3,13 @@ layout: post
 title: mplayer's useful keyboard shortcuts 
 date: 2017-10-04
 summary: Play your tunes like a ninja from the terminal
-categories: mplayer
+categories: miscelánea
 author: Ale gargolario
 image: /images/mplayer.png
 tags:
  - mplayer
- - terminal
+ - bash
+ - shortcuts
 ---
 
 Here's a little mplayer cheat sheet to have some fun at the command line:
