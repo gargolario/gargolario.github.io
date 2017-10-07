@@ -3,7 +3,7 @@ layout: post
 title: find y mplayer para crear playlists y reproducirlas de forma aleatoria 
 date: 2017-10-03
 summary: Creación de playlists y reproducción aleatoria desde la terminal
-categories: mplayer lpic1
+categories: miscelánea lpic1
 author: Ale gargolario
 image: /images/mplayer.png
 tags:
