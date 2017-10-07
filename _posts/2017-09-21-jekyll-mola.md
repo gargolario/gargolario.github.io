@@ -10,7 +10,7 @@ tags:
  - jekyll
  - markdown
  - github
- - github pages
+ - github-pages
 ---
 
 Sí, Jekyll mola. ¿Y por qué?
