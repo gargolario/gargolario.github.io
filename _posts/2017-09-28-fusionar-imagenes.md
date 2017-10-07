@@ -10,7 +10,7 @@ image: /images/imagemagick.jpg
 tags: 
  - imagemagick
  - bash
- - [file globbing]
+ - file-globbing
 ---
 
 Si queremos fusionar dos o más imágenes en una, podemos recurrir a la terminal y usar el comando **convert** del paquete de software
