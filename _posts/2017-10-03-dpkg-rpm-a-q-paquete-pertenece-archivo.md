@@ -3,13 +3,14 @@ layout: post
 title: dpkg & rpm - descubrir a qué paquete pertenece un archivo
 date: 2017-10-03
 summary: ¿Qué paquete instaló qué archivo?
-categories: dpkg rpm
+categories: lpic1
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
  - dpkg
  - rpm
  - bash
+ - lpic1
 ---
 
 En las labores de mantenimiento de nuestros sistemas **GNU/Linux**, a menudo nos encontramos con la necesidad de saber
