@@ -3,13 +3,14 @@ layout: post
 title: Habilitar enrutamiento en Linux
 date: 2017-09-23
 summary: Toda máquina con kernel Linux es un router en potencia
-categories: lpic2 redes
+categories: lpic2 
 author: Ale gargolario
 image: /images/logo@2x.png
 tags:
  - linux
  - lpic2
  - enrutamiento
+ - redes
 ---
 
 La función de enrutamiento está integrada de forma nativa en el núcleo Linux, es decir, cualquier sistema GNU/Linux es un
