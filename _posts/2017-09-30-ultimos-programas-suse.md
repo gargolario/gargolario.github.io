@@ -3,13 +3,14 @@ layout: post
 title: Comprobar los últimos programas instalados en openSUSE
 date: 2017-9-30
 summary: Ver por consola los últimos paquetes instalados en openSuSE
-categories: zypper opensuse rpm
+categories: opensuse 
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
  - opensuse
  - rpm
  - zypper
+ - bash
 ---
 
 
