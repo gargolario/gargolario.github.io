@@ -3,16 +3,15 @@ layout: post
 title: Hacer múltiples copias de un archivo con tee
 date: 2017-10-01
 summary: Cómo hacer múltiples copias de un archivo de una tacada 
-categories: bash
+categories: lpic1
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
  - bash
  - tee
  - redirección
- - redirection
  - expansión de llaves
- - brace expansion
+ - lpic1
 ---
 El comando **tee** tiene de particular que lee desde la entrada estándar (**stdin**) y escribe tanto a la salida estándar
 (**stdout**) como a un archivo de forma simultánea. 
