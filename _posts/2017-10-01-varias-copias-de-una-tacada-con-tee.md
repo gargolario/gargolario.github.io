@@ -10,7 +10,7 @@ tags:
  - bash
  - tee
  - redirección
- - ['expansión de llaves']
+ - expansión-de-llaves
  - lpic1
 ---
 El comando **tee** tiene de particular que lee desde la entrada estándar (**stdin**) y escribe tanto a la salida estándar
