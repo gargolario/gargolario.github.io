@@ -23,22 +23,26 @@ En la siguiente tabla comparativa la parte inferior representa al nivel físico 
 
 ### Tabla comparativa de los modelos OSI & TCP
 
-| **OSI**							          |       |**TCP**						       |
-| ----------------------------------------------------- 	          | :----: |:---------------------:				       |
-| <span style="color:green">**Aplicación**</span> (programas de usuario)  |						         	       |
-| <span style="color:green">**Presentación**</span> (formateo de datos)   |  |<span style="color:green">**Aplicación**</span> (Datos)          |
-| <span style="color:green">**Sesión**</span> (llegada al host)  	  |               	  			    	       	       |
-|                                    	     				  |                       				       	       |
-| <span style="color:blue">**Transporte**</span> (segmentos)		  |  |<span style="color:blue">**Transporte**</span> (UDP, TCP)        |
-|                                    					  |                       			   	       	       |
-| <span style="color:brown">**Red**</span> (paquetes)                  	  |  |<span style="color:brown">**Internet**</span> (IP)	       |
-| 		  		     					  |                       			      	       	       |
-| <span style="color:red">**Enlace**</span> (tramas)		          |			     				       	       |
-| <span style="color:red">**Físico**</span> (bits)       		  |  |<span style="color:red">**Físico**</span> (MAC)   	       | 
+
+| **OSI**							          ||||||||||**TCP**						       |
+|: --------------------------------------------------------|---           ||||||||||:---------------------				       |
+|                                                                         |||||||||| 
+| <span style="color:green">**Aplicación**</span> (programas de usuario)  ||||||||||
+| <span style="color:green">**Presentación**</span> (formateo de datos)   ||||||||||<span style="color:green">**Aplicación**</span> (Datos)    |
+| <span style="color:green">**Sesión**</span> (llegada al host)  	  ||||||||||
+|                                    	     				  |||||||||| 
+| <span style="color:blue">**Transporte**</span> (segmentos)		  ||||||||||<span style="color:blue">**Transporte**</span> (UDP, TCP)  |
+|                                    					  |||||||||| 
+| <span style="color:brown">**Red**</span> (paquetes)                  	  ||||||||||<span style="color:brown">**Internet**</span> (IP)	       |
+| 		  		     					  ||||||||||
+| <span style="color:red">**Enlace**</span> (tramas)		          ||||||||||
+| <span style="color:red">**Físico**</span> (bits)       		  ||||||||||<span style="color:red">**Físico**</span> (MAC)   	       | 
+
 
 
 
 Halof!!!
+
 
 
 ![_config.yml]({{ site.baseurl }}/images/network.png)
