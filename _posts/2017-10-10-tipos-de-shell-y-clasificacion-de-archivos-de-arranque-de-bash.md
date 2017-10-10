@@ -55,6 +55,13 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos consultar de forma clara qué archivo se lee en qué situación:
 ## <span style="color:green">**Tabla resumen comparativa de archivos de arranque de Bash**</span>
 
+| Tables                | **Login files**     | Cool                |
+| -------------         |:-------------:      | -----:              |
+| **Global files**      | */etc/profile*      | */etc/bash.bashrc*  |
+|                       | */etc/profile.d/\** | */etc/bash/bashrc*  |
+|                       |                     | */etc/bashrc*       |
+|                       | 
+|  **User files** 
 
 |                          | **Login files**      |      **Non-login files**  |
 |----------------------|---|:---------------------|:--------------------------|
