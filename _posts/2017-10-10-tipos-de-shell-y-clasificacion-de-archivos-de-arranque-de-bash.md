@@ -65,7 +65,7 @@ Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos c
 |                   |       |                      |     |       |                      |
 |**User files**     |       |*~/.bash_profile*     |     |       |*~/.bashrc*           |
 |                   |       |*~/.bash_login*       |     |       |                      |
-|                   |       |*~/.profile*                |       |                      |
+|                   |       |*~/.profile*          |     |       |                      |
 
 ## <span style="color:green">**¿Cómo sé qué tipo de shell tengo?**</span>
 
