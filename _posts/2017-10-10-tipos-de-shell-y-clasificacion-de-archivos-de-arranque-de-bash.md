@@ -13,8 +13,6 @@ tags:
 ---
 
 
-Lo primero que hace **Bash** cuando lo iniciamos es leer los **archivos** o **scripts de arranque** — los cuales sirven para personalizar el entorno de las sesiones, bien a nivel **global**, bien a nivel de **usuario**. 
-
 Ahora bien, el tipo de archivo de arranque que se lee viene determinado por un parámetro fundamental: **el tipo de shell o terminal**. Veamos qué tipos de shell existen:
 
 ## <span style="color:green">**Tipos de shell**</span>
