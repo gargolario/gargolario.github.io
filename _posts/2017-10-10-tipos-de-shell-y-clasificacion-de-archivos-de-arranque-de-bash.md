@@ -48,7 +48,6 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 + **Scripts** para realizar tareas **cron**, etc.
 
 
-<br>
 
 
 
