@@ -60,9 +60,11 @@ Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos c
 | **Global files**      | */etc/profile*      | */etc/bash.bashrc*  |
 |                       | */etc/profile.d/\** | */etc/bash/bashrc*  |
 |                       |                     | */etc/bashrc*       |
-|                       | 
-|  **User files** 
-
+|                       |                     |
+|  **User files**       | *~/.bash_profile*   | *~/.bashrc* 
+                          *~/.bash_login*
+                          *~/.profile* 
+                          
 |                          | **Login files**      |      **Non-login files**  |
 |----------------------|---|:---------------------|:--------------------------|
 |                          |                      |                           |
