@@ -40,8 +40,12 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 
 Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos consultar de forma clara qué archivo se lee en qué situación:
 
-## <span style="color:green">**Tabla resumen comparativa de archivos de arranque de Bash**</span>
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
                                  **Login files**                          **Non-login files**
                                  
