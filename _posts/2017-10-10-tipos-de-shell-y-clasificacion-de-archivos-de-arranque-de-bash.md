@@ -53,5 +53,71 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 
 
 Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos consultar de forma clara qué archivo se lee en qué situación:
+## <span style="color:green">**Tabla resumen comparativa de archivos de arranque de Bash**</span>
+
+
+|                   ||||||||||||||       | **Login files**      |     |       ||||||||||||||||||||||| **Non-login files**  |
+|-------------------||||||||||||||---|---|:---------------------|-----|---|---|||||||||||||||||||||||:---------------------|
+|                   ||||||||||||||       |                      |     |       |||||||||||||||||||||||                      |
+|**Global files**   ||||||||||||||       |*/etc/profile*        |     |       |||||||||||||||||||||||*/etc/bash.bashrc*    |
+|                   ||||||||||||||       |*/etc/profile.d/\**   |     |       |||||||||||||||||||||||*/etc/bash/bashrc*    |
+|                   ||||||||||||||       |                      |     |       |||||||||||||||||||||||*/etc/bashrc*         |
+|                   ||||||||||||||       |                      |     |       |||||||||||||||||||||||                      |
+|**User files**     ||||||||||||||       |*~/.bash_profile*     |     |       |||||||||||||||||||||||*~/.bashrc*           |
+|                   ||||||||||||||       |*~/.bash_login*       |     |       |||||||||||||||||||||||                      |
+|                   ||||||||||||||       |*~/.profile*                |       |||||||||||||||||||||||                      |
+
+## <span style="color:green">**¿Cómo sé qué tipo de shell tengo?**</span>
+
+Si tienes abierta una Bash shell y no sabes de qué tipo se trata, puedes averiguarlo así:
+
+### Shell interactiva de login
+
+Ejecutaremos el siguiente comando:
+
+```bash
+echo $0
+```
+
+Y nos dará como resultado:
+
+```bash
+-bash
+```
+
+o
+
+```bash
+-su
+```
+
+
+### Shell interactiva de no-login
+
+Ejecutaremos el siguiente comando:
+
+```bash
+echo $0
+```
+
+Y nos dará como resultado:
+
+```bash
+bash
+```
+o
+
+```bash
+/bin/bash
+```
+
+
+Halof!!!
+
+
+![_config.yml]({{ site.baseurl }}/images/bash.png)
+
+#### Fuentes y recursos de interés:
++ **Web de GNU**: <https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html>
 
 
