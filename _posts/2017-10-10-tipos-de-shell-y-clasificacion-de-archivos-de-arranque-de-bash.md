@@ -56,17 +56,11 @@ Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos c
 
 ## Tabla
 
-
-|                   |||||||       | **Login files**         |       |       |||||||||||||| **Non-login files**  |
-|-------------------|||||||---|---|:------------------------|-------|---|---||||||||||||||:---------------------|
-|                   |||||||       |                         |       |       ||||||||||||||                      |
-|**Global files**   |||||||       |*/etc/profile*           |       |       ||||||||||||||*/etc/bash.bashrc*    |
-|                   |||||||       |*/etc/profile.d/\**      |       |       ||||||||||||||*/etc/bash/bashrc*    |
-|                   |||||||       |                         |       |       ||||||||||||||*/etc/bashrc*         |
-|                   |||||||       |                         |       |       ||||||||||||||                      |
-|**User files**     |||||||       |*~/.bash_profile*        |       |       ||||||||||||||*~/.bashrc*           |
-|                   |||||||       |*~/.bash_login*          |       |       ||||||||||||||                      |
-|                   |||||||       |*~/.profile*                     |       ||||||||||||||                      |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ## <span style="color:green">**¿Cómo sé qué tipo de shell tengo?**</span>
 
