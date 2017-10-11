@@ -123,4 +123,10 @@ o
 /bin/bash
 ```
 
+Halof!!!
 
+![_config.yml]({{ site.baseurl }}/images/bash.png)
+
+#### Fuentes y recursos de interés:
+
+**Manual de BASH en web de GNU:** <https://www.ffmpeg.org/>
