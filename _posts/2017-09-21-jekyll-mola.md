@@ -18,7 +18,7 @@ tags:
 
 ### ¿Qué es Jekyll y por qué mola?
 
-Jekyll es una *ruby gem* que actúa como servidor web local y utiliza el lenguaje de plantilla *liquid*. Y mola porque te permite crear y diseñar un blog estático en pocos minutos tanto en local como en [**Github Pages**](https://pages.github.com/) gestionando tus entradas de blog cómodamente usando el lenguaje de marcado ligero **markdown**.
+Jekyll es una **ruby gem** que actúa como servidor web local y utiliza el lenguaje de plantilla **liquid**. Y mola porque te permite crear y diseñar un blog estático en pocos minutos tanto en local como en [**Github Pages**](https://pages.github.com/) gestionando tus entradas de blog cómodamente usando el lenguaje de marcado ligero **markdown**.
 
 Este blog, <https://shelllavie.com>, es un fork de <https://barryclark/jekyll-now> y está hecho con [**jekyll**](https://jekyllrb.com). 
 
