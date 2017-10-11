@@ -53,7 +53,20 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 
 
 Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos consultar de forma clara qué archivo se lee en qué situación:
-## <span style="color:green">**Tabla resumen comparativa de archivos de arranque de Bash**</span>
+## <span style="color:green">**Resumen comparativo de archivos de arranque de Bash**</span>
+
+### <span style="color:blue">**Archivos de arranque de shell interactiva de login**</span>
+
+#### <span style="color:blue">**Nivel global**</span>
+
++ */etc/profile*
++ */etc/profile.d/\**
+
+#### <span style="color:blue">**Nivel usuario**</span>
+
++ *~/.bash_profile*
++ *~/.bash_login* 
++ *~/.profile* 
 
 |              |         || **Login files**     | **Non-login files** |
 | -------------   |       ||-------------:       |  -----:             |
