@@ -20,10 +20,10 @@ tags:
 
 Jekyll es una **ruby gem** que actúa como servidor web local y utiliza el lenguaje de plantilla **liquid**. Y mola porque te permite crear y diseñar un blog estático en pocos minutos tanto en local como en [**Github Pages**](https://pages.github.com/) gestionando tus entradas de blog cómodamente usando el lenguaje de marcado ligero **markdown**.
 
-Este blog, <https://shelllavie.com>, es un fork de <https://barryclark/jekyll-now> y está hecho con [**jekyll**](https://jekyllrb.com). 
+Este blog, <https://shelllavie.com>, es un fork de <https://github.com/barryclark/jekyll-now> y está hecho con [**jekyll**](https://jekyllrb.com). 
 
 
-Si te animas a crear un blog estático, pero potente, te animo a que clones tú también un repo y consultes las fuentes que te pongo más abajo para tenerlo funcionando en pocos minutos.
+Si te animas crear un blog estático, pero potente, te invito a que clones tú también un repo y consultes las fuentes que te pongo más abajo para tenerlo funcionando en pocos minutos.
 
 Halof!!!
 
