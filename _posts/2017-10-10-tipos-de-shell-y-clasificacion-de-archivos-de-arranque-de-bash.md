@@ -55,30 +55,30 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos consultar de forma clara qué archivo se lee en qué situación:
 ## <span style="color:green">**Resumen comparativo de archivos de arranque de Bash**</span>
 
-### <span style="color:blue">**Archivos de arranque de shell interactiva de login**</span>
+### <span style="color:darkorange">**Archivos de arranque de shell interactiva de login**</span>
 
 #### <span style="color:darkblue">**Nivel global**</span>
 
 + */etc/profile*
 + */etc/profile.d/\**
 
-#### <span style="color:brown">**Nivel usuario**</span>
+#### <span style="color:darkblue">**Nivel usuario**</span>
 
 + *~/.bash_profile*
 + *~/.bash_login* 
 + *~/.profile* 
 
-|              |         || **Login files**     | **Non-login files** |
-| -------------   |       ||-------------:       |  -----:             |
-| **Global files**|       || */etc/profile*      | */etc/bash.bashrc*  |
-|                 |       ||  */etc/profile.d/\**| */etc/bash/bashrc*  |
-|                 |       ||                     | */etc/bashrc*       |
-|                 |       ||                     |                     |
-|  **User files** |       || *~/.bash_profile*   | *~/.bashrc*         |
-|                 |       || *~/.bash_login*     |                     |
-|                 |       || *~/.profile*        |                     |
-                          
-  
+### <span style="color:darkorange">**Archivos de arranque de shell interactiva de no-login**</span>
+
+#### <span style="color:darkblue">**Nivel global**</span>
+
++ */etc/bash.bashrc*
++ */etc/bash/bashrc*
++ */etc/bashrc*
+
+#### <span style="color:darkblue">**Nivel usuario**</span>
+
++ *~/.bashrc*
 
 ## <span style="color:green">**¿Cómo sé qué tipo de shell tengo?**</span>
 
