@@ -12,8 +12,8 @@ tags:
  - scripts-de-arranque
 ---
 
-Lo primero que hace **Bash** cuando lo iniciamos es leer los **archivos** o **scripts de arranque** — los cuales sirven para personalizar
-el entorno de las sesiones, bien a nivel **global**, bien a nivel de **usuario**.
+Lo primero que hace **Bash** cuando lo iniciamos es leer los **archivos** o **scripts de arranque** — los cuales sirven para personalizar el entorno de las sesiones, bien a nivel **global**, bien a nivel de **usuario**. Es en estos archivos donde podemos
+escribir nuestros **aliases** preferidos, etc.
 
 Ahora bien, el tipo de archivo de arranque que se lee viene determinado por un parámetro fundamental: **el tipo de shell o terminal**. 
 Veamos qué tipos de shell existen: 
@@ -66,4 +66,61 @@ Bien, pues ya lo tenemos todo listo para hacer un resumen donde podamos consulta
 + *~/.bash_profile*
 + *~/.bash_login* 
 + *~/.profile* 
+
+### <span style="color:darkorange">**Archivos de arranque de shell interactiva de no-login**</span>
+
+#### <span style="color:darkblue">**Nivel global**</span>
+
++ */etc/bash.bashrc*
++ */etc/bash/bashrc*
++ */etc/bashrc*
+
+#### <span style="color:darkblue">**Nivel usuario**</span>
+
++ *~/.bashrc*
+
+## <span style="color:green">**¿Cómo sé qué tipo de shell tengo?**</span>
+
+Si tienes abierta una Bash shell y no sabes de qué tipo se trata, puedes averiguarlo así:
+
+### Shell interactiva de login
+
+Ejecutaremos el siguiente comando:
+
+```bash
+echo $0
+```
+
+Y nos dará como resultado:
+
+```bash
+-bash
+```
+
+o
+
+```bash
+-su
+```
+
+
+### Shell interactiva de no-login
+
+Ejecutaremos el siguiente comando:
+
+```bash
+echo $0
+```
+
+Y nos dará como resultado:
+
+```bash
+bash
+```
+o
+
+```bash
+/bin/bash
+```
+
 
