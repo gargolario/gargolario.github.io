@@ -57,12 +57,12 @@ Bien, pues ya lo tenemos todo listo para crear una tabla resumen donde podamos c
 
 ### <span style="color:blue">**Archivos de arranque de shell interactiva de login**</span>
 
-#### <span style="color:blue">**Nivel global**</span>
+#### <span style="color:darkblue">**Nivel global**</span>
 
 + */etc/profile*
 + */etc/profile.d/\**
 
-#### <span style="color:blue">**Nivel usuario**</span>
+#### <span style="color:brown">**Nivel usuario**</span>
 
 + *~/.bash_profile*
 + *~/.bash_login* 
