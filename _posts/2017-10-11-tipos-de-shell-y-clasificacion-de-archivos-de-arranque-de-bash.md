@@ -30,7 +30,7 @@ Es aquella en la que el usuario introduce las órdenes en la terminal a través 
 
 + Accesos a una sesión Bash con `su - username`
 
-+ Desde una interfaz gráfica, terminales abiertas con la combinación de teclas **ctrl \+ alt \+ teclas de función** (desde **F1-F6**) — con la combinación **ctrl \+ alt \+F7** se restablece la interfaz gráfica. 
++ Desde una interfaz gráfica, terminales abiertas con la combinación de teclas **ctrl \+ alt \+ teclas de función** (**F1-F6**) — con la combinación **ctrl \+ alt \+F7** se restablece la interfaz gráfica. 
 
 ### Shell interactiva de no-login
 
@@ -43,11 +43,12 @@ Es aquella en la que el usuario introduce las órdenes en la terminal a través 
 
 ### Shell no interactiva y de no-login
 
-Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni *logueo* alguno (**de no-login**). Se trata, básicamente, del uso de **scripts**. En estos casos, Bash no lee ninguno de los archivos de arranque. 
+Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni *logueo* alguno (**de no-login**). Se trata, básicamente, del uso de **scripts**. En estos casos, Bash no lee ninguno de los archivos de arranque que se detallan más abajo. 
 
 #### Ejemplos
 
 + **Scripts** para realizar tareas **cron**, etc.
+
 
 
 Bien, pues ya lo tenemos todo listo para hacer un resumen donde podamos consultar de forma clara qué archivo se lee en qué situación (en los casos donde hay más de un archivo, Bash lee el primero que encuentra):
