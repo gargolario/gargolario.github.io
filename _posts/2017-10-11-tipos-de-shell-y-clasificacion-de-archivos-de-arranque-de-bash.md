@@ -50,3 +50,20 @@ Es aquella en la que no hay interacción con el usuario (**no interactiva**) ni 
 + **Scripts** para realizar tareas **cron**, etc.
 
 
+Bien, pues ya lo tenemos todo listo para hacer un resumen donde podamos consultar de forma clara qué archivo se lee en qué situación (en los casos donde hay más de un archivo, Bash lee el primero que encuentra):
+
+## <span style="color:green">**Resumen comparativo de archivos de arranque de Bash**</span>
+
+### <span style="color:darkorange">**Archivos de arranque de shell interactiva de login**</span>
+
+#### <span style="color:darkblue">**Nivel global**</span>
+
++ */etc/profile*
++ */etc/profile.d/\**
+
+#### <span style="color:darkblue">**Nivel usuario**</span>
+
++ *~/.bash_profile*
++ *~/.bash_login* 
++ *~/.profile* 
+
