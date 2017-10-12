@@ -34,7 +34,7 @@ Windows 7 (loader) (en /dev/sda3)
 Linux Mint 18.1 Serena (18.1) (en /dev/sda5)
 ```
 As you can see, I have 3 OSs on my HD: **Zorin** (default), **Windows 7** and **Linux Mint 18.1 Serena**. Now let's suppose 
-I want to make **Linux Mint** the default and have **grub2** always boot it...
+I want to make **Linux Mint** the new default ...
 
 
 ## Making a specific OS the default at boot in <span style="color:darkblue">**/etc/default/grub**</span>
