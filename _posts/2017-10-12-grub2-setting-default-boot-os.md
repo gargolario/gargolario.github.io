@@ -13,12 +13,12 @@ tags:
  - cut
 ---
 
-If we have more than one OS in our HD or SSD (either dual or multi boot) we may find ourselves in the scenario where, depending on a number of reasons, the default boot OS is not the one we want or changes when a major upgrade takes place. However, we can tell **grub2** to boot always the same OS (instead of manually change it ourselves during **grub2**'s timeout screen). To do this, we have to check on **/boot/grub/grub.cfg** & do some tweaking on **/etc/default/grub**.
+If we have more than one OS in our HD or SSD (either dual or multi boot) we may find ourselves in the scenario where, depending on a number of reasons, the default boot OS is not the one we want or changes when a major upgrade takes place. However we can tell **grub2** to boot always the same OS (to avoid changing it ourselves during **grub2**'s timeout screen). To do this, we have to check on **/boot/grub/grub.cfg** & do some tweaking on **/etc/default/grub**.
 
 
-## Checking what OSs are available at boot (/boot/grub/grub.cfg)
+## Checking how many boot OS entries we have in <span style="color:darkblue">**/boot/grub/grub.cfg**</span>
 
-We will run the following command to grep the relevant information in lines starting with *menuentry*:
+We will run the following command (to grep the relevant information — *field \#2* in lines starting with *menuentry*):
 
 ```bash
 grep "^menuentry" /boot/grub/grub.cfg |cut -d "'" -f2
@@ -33,11 +33,11 @@ Windows Recovery Environment (loader) (en /dev/sda1)
 Windows 7 (loader) (en /dev/sda3)
 Linux Mint 18.1 Serena (18.1) (en /dev/sda5)
 ```
-As you can see, I have 3 OSs on my HD: **Zorin** (default), **Windows 7** and **Linux Mint 18.1**. Now let's suppose 
-I want to make **Linux Mint** the default ...
+As you can see, I have 3 OSs on my HD: **Zorin** (default), **Windows 7** and **Linux Mint 18.1 Serena**. Now let's suppose 
+I want to make **Linux Mint** the default and have **grub2** always boot it...
 
 
-## Making a specific OS the default at boot (/etc/default/grub)
+## Making a specific OS the default at boot in <span style="color:darkblue">**/etc/default/grub**</span>
 
 The important parameter here is **GRUB_DEFAULT**. Let's grep **/etc/default/grub** for this parameter and its value:
 
