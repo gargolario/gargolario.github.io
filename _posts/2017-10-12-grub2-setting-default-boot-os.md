@@ -5,7 +5,7 @@ date: 2017-10-12
 summary: Telling grub2 what OS to load by default
 categories: lpic1
 author: Ale-gargolario
-image: /images/grub2_logo.png
+image: /images/grub2.png
 tags:
  - lpic1
  - grub2
@@ -73,7 +73,7 @@ sudo update-grub2
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/grub2_logo.png)
+![_config.yml]({{ site.baseurl }}/images/grub2.png)
 
 
 #### Sources & References:
