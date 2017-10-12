@@ -75,6 +75,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/grub2_logo.png)
 
+
 #### Fuentes y recursos de interés:
 
 **Grub2 Quick Start:** <https://wiki.gentoo.org/wiki/GRUB2_Quick_Start>
