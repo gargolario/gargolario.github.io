@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Grub2 - setting the default boot OS 
-date: 2017-10-07
+date: 2017-10-12
 summary: Telling grub2 what OS to load by default
 categories: lpic1
 author: Ale-gargolario
-image: /images/grub2.jpg
+image: /images/grub2_logo.png
 tags:
  - lpic1
  - grub2
@@ -73,7 +73,7 @@ sudo update-grub2
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/grub2.jpg)
+![_config.yml]({{ site.baseurl }}/images/grub2_logo.png)
 
 #### Fuentes y recursos de interés:
 
