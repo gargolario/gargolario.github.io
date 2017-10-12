@@ -13,15 +13,12 @@ tags:
  - cut
 ---
 
-If we have more than one OS in our HD or SSD (either dual or multi boot) we may find ourselves in the scenario where, depending on 
-a number of reasons, the default boot OS is not the one we want or changes when a major upgrade takes place. However, we can
-tell **grub2** to boot always the same OS. To do this, we have to use two files: **/boot/grub/grub.cfg** & **/etc/
-default/grub**.
+If we have more than one OS in our HD or SSD (either dual or multi boot) we may find ourselves in the scenario where, depending on a number of reasons, the default boot OS is not the one we want or changes when a major upgrade takes place. However, we can tell **grub2** to boot always the same OS (instead of manually change it ourselves during **grub2**'s timeout screen). To do this, we have to check on **/boot/grub/grub.cfg** & do some tweaking on **/etc/default/grub**.
 
 
 ## Checking what OSs are available at boot (/boot/grub/grub.cfg)
 
-We will run the following command:
+We will run the following command to grep the relevant information in lines starting with *menuentry*:
 
 ```bash
 grep "^menuentry" /boot/grub/grub.cfg |cut -d "'" -f2
@@ -42,7 +39,7 @@ I want to make **Linux Mint** the default ...
 
 ## Making a specific OS the default at boot (/etc/default/grub)
 
-The important parameter here is **GRUB_DEFAULT=**. Let's grep **/etc/default/grub** for this parameter and its value:
+The important parameter here is **GRUB_DEFAULT**. Let's grep **/etc/default/grub** for this parameter and its value:
 
 ```bash
 grep GRUB_DEFAUL /etc/default/grub
@@ -59,7 +56,8 @@ have to use our favourite text editor and change the value of **GRUB_DEFAULT** a
 ```bash
 GRUB_DEFAULT="Linux Mint 18.1 Serena (18.1) (en /dev/sda5)"
 ```
-It's good
+It's a good practice to copy and paste the value from the output of **grep "^menuentry" /boot/grub/grub.cfg |cut -d "'" -f2**
+to avoid spelling mistakes.
 
 The only thing left to do now is updating **grub2** with:
 
@@ -76,10 +74,6 @@ sudo update-grub2
 Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/grub2.jpg)
-
-#### Notas:
-+ El argumento **-i** indica el archivo que **ffmpeg** toma como **input**, es decir, *video_musical.mp4*.
-+ El **%4d** expande el nombre de los archivos resultantes a **foto** + *4 dígitos* + **.jpg**, es decir, *foto0001.jpg*, *foto0002.jpg*, etc.
 
 #### Fuentes y recursos de interés:
 
