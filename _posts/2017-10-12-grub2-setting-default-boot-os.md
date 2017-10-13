@@ -69,7 +69,7 @@ or ...
 ```bash
 sudo update-grub2
 ```
-.. .since **update-grub2** is linked to **update-grub**
+... since **update-grub2** is linked to **update-grub**.
 
 Halof!!!
 
