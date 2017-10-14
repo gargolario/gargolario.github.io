@@ -108,7 +108,6 @@ las líneas de esos scripts, pueden darse tres casos:
 
 + Si **[ ? ]** precede al nombre del servicio, el programa **service** no puede determinar la línea de estado del servicio en el script correspondiente de **/etc/init.d/**.
 
-**eg**: 
 ```bash
 [ ? ]  whoopsie
 ```
