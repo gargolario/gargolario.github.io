@@ -21,7 +21,7 @@ Aún con la llegada de **systemd**, el programa **service** sigue estando presen
 ```bash
 service --status-all
 ```
-Veamos que se nos muestra por salida estándar:
+Veamos qué se nos muestra por salida estándar:
 
 ```bash
  [ + ]  acpid
@@ -92,23 +92,21 @@ Vemos, por ejemplo, como el demonio de *interfaz avanzada de configuración y en
 ### Explicación del funcionamiento y resumen
 
 **/usr/sbin/service** busca el estado de los servicios en los scripts de **/etc/init.d/**. En función de lo que encuentre en
-las líneas de esos scripts, podemos encontrarnos tres casos:
+las líneas de esos scripts, pueden darse tres casos:
 
-+ Si **[+]** precede al nombre del servicio, el servicio está funcionando.
++ Si **[ + ]** precede al nombre del servicio, el servicio está funcionando.
 
-**eg**: 
 ```bash
 [ + ]  whoopsie
 ```
 
-+ Si **[-]** precede al nombre del servicio, el servicio no está funcionando.
++ Si **[ - ]** precede al nombre del servicio, el servicio no está funcionando.
 
-**eg**: 
 ```bash
 [ - ]  whoopsie
 ```
 
-+ Si **[?]** precede al nombre del servicio, el programa **service** no puede determinar la línea de estado del servicio en el script correspondiente de **/etc/init.d/**.
++ Si **[ ? ]** precede al nombre del servicio, el programa **service** no puede determinar la línea de estado del servicio en el script correspondiente de **/etc/init.d/**.
 
 **eg**: 
 ```bash
