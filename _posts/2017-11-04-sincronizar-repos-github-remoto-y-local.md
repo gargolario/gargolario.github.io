@@ -5,7 +5,7 @@ date: 2017-11-04
 summary: Una mini-guía básica para la sincronización de repos
 categories: programación
 author: Ale gargolario
-image: /images/octojekyll.png
+image: /images/github.jpg
 tags:
  - git
  - github
@@ -88,7 +88,7 @@ git push origin master
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/octojekyll.png)
+![_config.yml]({{ site.baseurl }}/images/github.jpg)
 
 #### Recursos de interés
 *** 
