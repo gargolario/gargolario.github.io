@@ -93,6 +93,6 @@ Halof!!!
 #### Recursos de interés
 *** 
 
-** <https://www.atlassian.com/git/tutorials/syncing>
+ <https://www.atlassian.com/git/tutorials/syncing>
 
-**<http://rogerdudler.github.io/git-guide/>
+ <http://rogerdudler.github.io/git-guide/>
