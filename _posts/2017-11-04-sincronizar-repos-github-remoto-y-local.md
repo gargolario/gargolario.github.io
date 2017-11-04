@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Jekyll mola!
+title: Sincronizar repositorios github remoto y local
 date: 2017-11-04
-summary: Sincronizar repositorios github remoto y local
+summary: Una mini-guía básica para la sincronización de repos
 categories: programación
 author: Ale gargolario
 image: /images/octojekyll.png
