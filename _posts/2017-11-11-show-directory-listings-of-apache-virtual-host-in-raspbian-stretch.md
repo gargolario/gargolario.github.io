@@ -13,8 +13,8 @@ tags:
  - directory-listing
 ---
 
-Ok, so we have installed **apache** on our computer. Now we want to set up a basic web server on our **Raspberrypi** and be able to navigate through 
-the contents of its directories. Let's get the task divided into 4 simple steps and get down to work:
+Ok, so we have installed **apache**. Now we want to set up a basic web server on our **Raspberrypi** and be able
+to navigate through the contents of its directories. Let's get the task divided into 4 simple steps and down to work:
 
 ### Step 1: enable mod_autoindex
 
@@ -62,23 +62,23 @@ Make sure the **icons** directory is in the directory indicated by the **Documen
 ``` bash
 ls /var/www/html/my-virtual-host
 ```
-Again, make sure you see the **icon** directory in the output of the above command.
+Again, make sure you see the **icons** directory in the output of the above command.
 
 Last, but not least ...
 
 
 ### Step 4: Enable *Options +Indexes* 
 
-To start with, make sure no **index.html** file (or a similar one) exits in our virtual host's **DocumentRoot**:
+To start with, make sure no **index.html** file (or a similar one like **index.htm** or **index.php**) exits in our virtual host's **DocumentRoot**:
 
 ``` bash
 ls /var/www/html/my-virtual-host
 ```
-If an *index* file exists, change its name to avoid have it shown by default.
+If an *index* file exists, change its name to avoid having it shown by default when accessing the web server.
 
 Finally, activate the option **+Indexes** either:
 
-In **/etc/apache2/apache2.conf**:
+In **apache**'s main config file **/etc/apache2/apache2.conf**:
 
 ``` bash
 <Directory /var/www/html/my-virtual-host>
