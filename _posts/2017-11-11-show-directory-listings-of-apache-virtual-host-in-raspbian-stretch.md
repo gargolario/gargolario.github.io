@@ -21,7 +21,7 @@ to navigate through the contents of its directories. Let's get the task divided 
 This module will take care of the job:
 
 ``` bash
-sudo a2enmod
+sudo a2enmod autoindex
 ```
 Once enabled, we can check (and tweak) its configuration in **/etc/apache2/mods-enabled/autoindex.conf**:
 
