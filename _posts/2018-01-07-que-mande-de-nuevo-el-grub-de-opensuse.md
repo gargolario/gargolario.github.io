@@ -26,7 +26,7 @@ Tras introducir nuestra contraseña de **root**, vamos a **Sistema > Cargador de
 
 ![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub02.png)
 
-Una vez dentro, tenemos que marcar la opción **Escribir código de arranque genérico en el MBR** y aceptar*:
+Una vez dentro, tenemos que marcar la opción **Escribir código de arranque genérico en el MBR** y aceptar *:
 
 ![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub03.png)
 
@@ -40,7 +40,7 @@ Halof!!!
 ![_config.yml]({{ site.baseurl }}/images/aardvark-yast.png)
 
 #### Notes:
-+ *Si la opción estaba ya marcada, la desmarcamos, la volvemos a marcarla y aceptamos..
++ * Si la opción estaba ya marcada, la desmarcamos, la volvemos a marcarla y aceptamos..
 
 #### References
 ***
