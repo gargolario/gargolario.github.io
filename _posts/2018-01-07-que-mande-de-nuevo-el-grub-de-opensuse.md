@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ¡Que mande de nuevo el grub de openSuSE!
+title: Que mande de nuevo el grub de openSuSE
 date: 2018-01-07
 summary: Reinstalar el grub de opensuse en el MBR vía YaST para arranques duales
 categories: opensuse 
@@ -12,22 +12,22 @@ tags:
  - arranque dual
 ---
 
-Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distribuciones como, por ejemplo, la bella **ZorinOS** (derivada de **Ubuntu**). Y a veces ocurre que, por el motivo que sea, la última distro que instalamos instala su **grub** en el **MBR** y nuestro bonito **grub** de **openSuSE** desaparece.
+Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distribuciones como, por ejemplo, la bella [**ZorinOS**](https://zorinos.com/) (derivada de **Ubuntu**). Y a veces ocurre que, por el motivo que sea, la última distro que instalamos instala su **grub** en el **MBR** y nuestro bonito **grub** de **openSuSE** desaparece.
 En este post vamos a ver cómo solucionar esta situación volviendo a instalar **grub** en el MBR vía **YaST**:
 
 
 ### Reinstalación de grub en el MBR con YaST
 
 Buscamos **YaST** en el tablero de mandos:
-![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub01.png)
+![config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub01.png)
 
 Tras introducir nuestra contraseña de **root**, vamos a **Sistema > Cargador de arranque**:
 
-![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub02.png)
+![config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub02.png)
 
 Una vez dentro, tenemos que marcar la opción **Escribir código de arranque genérico en el MBR** y aceptar*:
 
-![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub03.png)
+![config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub03.png)
 
 
 Ya está: la próxima vez que arranquemos nuestro equipo será el **grub** de **openSuSE** el que nos dé la bienvenida.
