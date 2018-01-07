@@ -16,7 +16,7 @@ Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distri
 En este post vamos a ver cómo solucionar esta situación volviendo a instalar **grub** en el MBR vía **YaST**:
 
 
-![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
+![_config.yml]({{ site.baseurl }}/images/aardvark-yast.png)
 ### Reinstalación de grub en el MBR con YaST
 
 Buscamos **YaST** en el tablero de mandos:
