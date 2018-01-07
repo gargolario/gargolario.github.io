@@ -12,7 +12,7 @@ tags:
  - arranque dual
 ---
 
-Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distribuciones como, por ejemplo, la bella [**ZorinOS**](https://zorinos.com/) (derivada de **Ubuntu**). Y a veces ocurre que, por el motivo que sea, la última distro que instalamos instala su **grub** en el **MBR** y nuestro bonito **grub** de **openSuSE** desaparece.
+Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distribuciones como, por ejemplo, la bella **ZorinOS** (derivada de **Ubuntu**). Y a veces ocurre que, por el motivo que sea, la última distro que instalamos instala su **grub** en el **MBR** y nuestro bonito **grub** de **openSuSE** desaparece.
 En este post vamos a ver cómo solucionar esta situación volviendo a instalar **grub** en el MBR vía **YaST**:
 
 
