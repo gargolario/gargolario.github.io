@@ -5,7 +5,7 @@ date: 2018-01-07
 summary: Reinstalar el grub de opensuse en el MBR vía YaST para arranques duales
 categories: opensuse 
 author: Ale gargolario
-image: /images/terminal-suse.png
+image: /images/aardvark-yast.png
 tags:
  - opensuse
  - yast
