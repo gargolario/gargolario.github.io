@@ -19,7 +19,7 @@ En este post vamos a ver cómo solucionar esta situación volviendo a instalar *
 ### Reinstalación de grub en el MBR con YaST
 
 Buscamos **YaST** en el tablero de mandos:
-
+![_config.yml]({{ site.baseurl }}/images/imagemagick.jpg)
 ![_config.yml]({{ site.baseurl }}/images/Yast_reinstall_grub01.png)
 
 Tras introducir nuestra contraseña de **root**, vamos a **Sistema > Cargador de arranque**:
