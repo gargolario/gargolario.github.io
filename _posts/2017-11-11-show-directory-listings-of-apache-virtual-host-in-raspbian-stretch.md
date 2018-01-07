@@ -98,8 +98,8 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/web-server.png)
 
-#### Recursos de interés
+#### References
 *** 
 
- Wiki de apache: <https://wiki.apache.org/httpd/DirectoryListings>
+ Apache wiki: <https://wiki.apache.org/httpd/DirectoryListings>
 
