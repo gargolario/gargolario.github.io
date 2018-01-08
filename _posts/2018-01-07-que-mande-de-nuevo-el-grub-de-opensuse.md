@@ -9,7 +9,7 @@ image: /images/aardvark-yast.png
 tags:
  - opensuse
  - yast
- - arranque dual
+ - arranque-dual
 ---
 
 Aparte de mi querido **openSUSE**, mi disco duro suele dar cobijo a otras distribuciones como, por ejemplo, la bella [**ZorinOS**](https://zorinos.com/) (derivada de **Ubuntu**). Y a veces ocurre que, por el motivo que sea, la última distro que instalamos instala su **grub** en el **MBR** y nuestro bonito **grub** de **openSuSE** desaparece.
