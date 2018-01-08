@@ -14,7 +14,7 @@ sitemap: false
 {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 {% if year != nyear %}
 {% if forloop.index != 1 %}</ul>{% endif %}
-  <h2>{{ post.date | date: '%Y' }}</h2>
+  <h2>{{ post.date | date: '%Y' }}</h2><ul>
 {% endif %}
 {% endunless %}
 
