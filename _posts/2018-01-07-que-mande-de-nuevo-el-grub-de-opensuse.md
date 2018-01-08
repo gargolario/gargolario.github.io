@@ -39,7 +39,7 @@ Halof!!!
 
 ![_config.yml]({{ site.baseurl }}/images/aardvark-yast.png)
 
-#### Notes:
+#### Notas:
 + *Si la opción **Escribir código genérico de arranque en el MBR** estaba ya marcada, la desmarcamos, la volvemos a marcar y aceptamos.
 
 #### References
