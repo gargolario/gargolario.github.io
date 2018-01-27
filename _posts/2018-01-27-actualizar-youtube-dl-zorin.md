@@ -14,7 +14,7 @@ tags:
 
 A veces ocurre que intentamos descargar vídeos con el magnífico programa **youtube-dl** en la bella distro irlandesa **ZorinOS** y nos da error debido a que la versión que tenemos no está actualizda. Probamos con ```youtube-dl -U``` y/o actualizamos a la útlima versión de los repositorios de **Ubuntu** y nada de nada.
 
-La solución pasa por descargarse la última versión de la web de [youtue-dl](https://yt-dl.org):
+La solución pasa por descargarse la última versión de la web de [youtube-dl](https://yt-dl.org):
 
 ``` bash
 sudo curl -L https://yt-dl.org/latest/youtube-dl -o /usr/bin/youtube-dl
