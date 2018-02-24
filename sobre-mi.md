@@ -9,7 +9,7 @@ Soy Ale, me gusta la terminal de GNU/Linux y voy a utilizar este blog para darla
 ### Otras infos acerca de mi persona
 #### Anécdotas
 * Conocí el software libre y me maravilló tanto su filosofía y potencial que me hice socio de la [Free Software Foundation](https://www.fsf.org).
-* Quedé tan fascinado con el sistema operativo GNU/Linux que decidí estudiarlo y aprender como funcióna por dentro. Así, en un par de años me certifiqué como administrador de sistemas (LPIC-1) e ingeniero Linux (LPIC-2) a través del [Linux Professional Institute](https://www.lpi.org) donde también colaboro como traductor.
+* Quedé tan fascinado con el sistema operativo GNU/Linux que decidí estudiarlo y aprender cómo funciona por dentro. Así, en un par de años me certifiqué como administrador de sistemas (LPIC-1) e ingeniero Linux (LPIC-2) a través del [Linux Professional Institute](https://www.lpi.org) donde también colaboro como traductor.
 
 #### Aficiones
 * Informática en general (Software Libre en particular).
