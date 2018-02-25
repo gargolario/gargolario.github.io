@@ -12,7 +12,7 @@ tags:
  - knit a pdf
 ---
 
-El [IDE RStudio](https:www.rstudio.com) nos permite hacer algo muy chulo: exportar archivos *Rmarkdown* a *PDF* (también a *HTML* y a *docx*). En **Zorin 12.2**, **Ubuntu 16.04** y otras derivadas de esta última podemos encontrarnos algún error debido a que nos falta instalar algo. Esa ha sido la motivación para escribir este post. Vamos a ello:
+El [IDE RStudio](https://www.rstudio.com) nos permite hacer algo muy chulo: exportar archivos *Rmarkdown* a *PDF* (también a *HTML* y a *docx*). En **Zorin 12.2**, **Ubuntu 16.04** y otras derivadas de esta última podemos encontrarnos algún error debido a que nos falta instalar algo. Esa ha sido la motivación para escribir este post. Vamos a ello:
 
 ### Lo primero es instalar LaTeX:
 
@@ -47,7 +47,7 @@ Si, después de todo esto, encontramos otro error de LaTeX `! LaTeX Error: File 
 ``` bash
 sudo apt-get install texlive-latex-extra
 ```
-Cerramos y abrimos RStudio y ahora deberíamos poder exportar a PDF sin problemas.
+Cerramos y abrimos **RStudio** y ahora deberíamos poder exportar a PDF sin problemas.
 
 Halof!!!
 
