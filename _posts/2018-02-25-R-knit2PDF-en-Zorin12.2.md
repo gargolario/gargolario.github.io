@@ -19,20 +19,22 @@ El [IDE RStudio](https:www.rstudio.com) nos permite hacer algo muy chulo: export
 ``` bash
 sudo apt-get install texlive
 ```
-#### Si tras intentar *knit to PDF* encontramos el error `pandoc document conversion failed with error 43`, hacemos lo siguiente:
+### Instalación de devtools
+
+Si tras intentar *knit to PDF* encontramos el error `pandoc document conversion failed with error 43`, hacemos lo siguiente:
 
 1. en **RStudio** vamos a **packages > install packages > devtools**
 
 2. en la consola de **RStudio** escribimos **devtools::install_github("rstudio/rmarkdown")**
 
-##### Si encontramos el error `Error in library(devtools) : there is no package called ‘devtools’`, abrimos una terminal y escribimos:
+ Si encontramos el error `Error in library(devtools) : there is no package called ‘devtools’`, abrimos una terminal y escribimos:
 
 ``` bash
 sudo apt-get install libcurl4-openssl-dev libssl-dev
 ```
 ### Últimos pasos:
 
-Ahora, cuando intentemos exportar a PDF, es posible que encontremos el siguiente error `Error: failed to compile nuestro_archivo.tex. See nuestro_archivo.log for more info` y, al comprobar el log, leamos `! LaTeX Error: File \`lmodern.sty' not found.`
+Ahora, cuando intentemos exportar a PDF, es posible que encontremos el siguiente error `Error: failed to compile nuestro_archivo.tex. See nuestro_archivo.log for more info` y, al comprobar el log, leamos `! LaTeX Error: File ‘lmodern.sty' not found.`
 
 Instalamos lo que falta en la terminal:
 
@@ -40,7 +42,7 @@ Instalamos lo que falta en la terminal:
 sudo apt-get install lmodern
 ```
 
-Si, después de todo esto, encontramos otro error de LaTeX `! LaTeX Error: File \`framed.sty' not found`, procedemos con:
+Si, después de todo esto, encontramos otro error de LaTeX `! LaTeX Error: File ‘framed.sty' not found`, procedemos con:
 
 ``` bash
 sudo apt-get install texlive-latex-extra
