@@ -11,18 +11,18 @@ tags:
  - gnometerminal
  ---
 
-Cuando estamos trabajando con la terminal resulta a veces muy útil abrir varias instancias de la misma. Si utilizamos **Konsole** o **gnome-terminal** (los dos emuladores de terminal más populares en GNU/Linux) y queremos abrir varias pestañas podemos recurrir al atajo **<Ctrl> + <Alt> + <t>**. Ahora bien, para cambiar de una pestaña a otra, utilizaremos diferentes atajos según el emulador:
+Cuando estamos trabajando con la terminal resulta a veces muy útil abrir varias instancias de la misma. Si utilizamos **Konsole** o **gnome-terminal** (los dos emuladores de terminal más populares en GNU/Linux) y queremos abrir varias pestañas podemos recurrir al atajo **Ctrl + Alt + t**. Ahora bien, para cambiar de una pestaña a otra, utilizaremos diferentes atajos según el emulador:
 
 ### Movernos entre pestañas en Konsole
 
-**<Shift> + <teclas de dirección izquierda/derecha>**
+**Shift + teclas de dirección izquierda/derecha**
 
 
 ### Movernos entre pestañas en gnome-terminal
 
-**<Ctrl> + <RePag/AvPag>**
+**Ctrl + RePag/AvPag**
 
-También **<Alt> + <Teclas númericas superiores>** (1, para la primera pestaña, 2 para la segunda, etc.).
+También **Alt + Teclas númericas superiores** (1, para la primera pestaña, 2 para la segunda, etc.).
 
 Halof!!!
 
