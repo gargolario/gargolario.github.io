@@ -32,4 +32,4 @@ Halof!!!
 #### Recursos de interés
 *** 
 
-**Información sobre la tecla **Shift** o **Mayúscula**:** <https://es.wikipedia.org/wiki/May%C3%BAs_(tecla)>
+**Información sobre la tecla Shift o Mayúscula**:** <https://es.wikipedia.org/wiki/May%C3%BAs_(tecla)>
