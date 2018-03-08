@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rstudio - Knit a PDF en Zorin 12.2
-date: 2018-11-25
+date: 2018-02-25
 summary: Pasos a seguir para poder exportar archivos Rmd a PDF
 categories: programación zorin
 author: Ale gargolario
