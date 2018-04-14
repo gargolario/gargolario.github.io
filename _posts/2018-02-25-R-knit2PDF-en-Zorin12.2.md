@@ -9,7 +9,7 @@ image: /images/R_logo.svg.png
 tags:
  - R
  - zorin
- - knit a pdf
+ - pdf
 ---
 
 El [IDE RStudio](https://www.rstudio.com) nos permite hacer algo muy chulo: exportar archivos *Rmarkdown* a *PDF* (también a *HTML* y a *docx*). En **Zorin 12.2**, **Ubuntu 16.04** y otras derivadas de esta última podemos encontrarnos algún error debido a que nos falta instalar algo. Esa ha sido la motivación para escribir este post. Vamos a ello:
