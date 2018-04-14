@@ -28,7 +28,7 @@ Supongamos, por ejemplo, que tenemos una lista muy larga (llamada "lista-larga.p
 ```bash
 pdftotext lista-larga.pdf - |grep 'Abellán' |wc -l
 ```
-Como puede verse, convertimos *lista-larga.pdf* a PDF, pero, en lugar de escribir el resultado a un archivo, se lo enviamos a *grep* mediante tubería y finalmente a *wc* para hacer el recuento.
+Como puede verse, convertimos "lista-larga.pdf" a PDF, pero, en lugar de escribir el resultado a un archivo, se lo enviamos a **grep** mediante tubería y finalmente a **wc** para hacer el recuento.
 
 Espero que este post haya sido de tu agrado y te haya servido.
 
@@ -40,4 +40,4 @@ Halof!!!
 #### Recursos de interés
 *** 
 
-**Manual de grep**:** <https://www.gnu.org/savannah-checkouts/gnu/grep/manual/grep.html>
+**Manual de grep**: <https://www.gnu.org/savannah-checkouts/gnu/grep/manual/grep.html>
