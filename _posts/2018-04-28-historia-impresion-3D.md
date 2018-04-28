@@ -3,11 +3,11 @@ layout: post
 title: Historia de la impresión 3D
 date: 2018-04-28
 summary: Una sencilla infografía sobre la historia de la impresión 3D
-categories: diario-de-aprendizaje-3D 
+categories: diario3D 
 author: Ale gargolario
-image: /images/impresion3D.png
+image: /images/3D.png
 tags:
- - impresión-3D
+ - 3D
 ---
 
 Con esta publicación doy por iniciada una nueva categoría en mi blog: el **Diario de aprendizaje** sobre la **impresión 3D** para el curso del **CPR Región de Murcia**.
@@ -19,7 +19,7 @@ Las entradas que publique aquí las enlazaré en **Twitter** a través del hasht
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/impresion3D.png)
+![_config.yml]({{ site.baseurl }}/images/3D.png)
 
 #### Recursos de interés
 *** 
