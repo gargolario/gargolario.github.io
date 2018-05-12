@@ -13,7 +13,7 @@ tags:
 Tercera entrada del **Diario de aprendizaje** sobre la **impresión 3D** para el curso del **CPR Región de Murcia**.
 
 ### Construye tu propia ciudad con Tinkercad:
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=TImxy-pyTXg" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/TImxy-pyTXg" frameborder="0" allowfullscreen></iframe>
 
 Halof!!!
 
