@@ -19,7 +19,7 @@ El diseño se ha realizado en la web [BlocksCAD](https://www.blockscad3d.com); l
 
 Halof!!!
 
-![_config.yml]({{ site.baseurl }}/images/sosiego5.png)
+![_config.yml]({{ site.baseurl }}/images/sosiego5.jpg)
 
 
 #### Recursos de interés
