@@ -5,7 +5,7 @@ date: 2018-05-19
 summary: Construyendo un templo con BlocksCAD
 categories: diario-de-aprendizaje-3d 
 author: Ale gargolario
-image: /images/sosiego5.png
+image: /images/sosiego5.jpg
 tags:
  - 3d
 ---
