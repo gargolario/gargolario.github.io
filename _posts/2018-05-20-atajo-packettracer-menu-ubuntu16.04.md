@@ -3,9 +3,7 @@ layout: post
 title: Crear atajo a Packettracer en el menú de programas de Ubuntu 16.04
 date: 2018-05-20
 summary: Cómo lanzar el programa de simulación de redes de Cisco desde la GUI de Ubuntu 16.04
-categories: 
- - cisco 
- - programación 
+categories: cisco 
 author: Ale gargolario
 image: /images/packettracer.jpg
 tags:
@@ -52,7 +50,7 @@ sed -i '/Name=Packettracer/i [Desktop Entry]' /usr/share/applications/packettrac
 ```
 Halof!
 
-![_config.yml]({{ site.baseurl }}/images/packettracer.jpg)
+![_config.yml]({{ site.baseurl }}/images/packettracer.jpg) 
 
 #### Notas
 *** 
