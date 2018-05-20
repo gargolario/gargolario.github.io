@@ -5,7 +5,7 @@ date: 2018-05-20
 summary: Cómo lanzar el programa de simulación de redes de Cisco desde la GUI de Ubuntu 16.04
 categories: cisco 
 author: Ale gargolario
-image: /images/packettracer.jpg
+image: /images/packettracer.jpeg
 tags:
  - redes
  - cisco
@@ -37,25 +37,31 @@ Si todo ha ido bien ya tenemos el programa instalado y lo podemos ejecutar escri
 Para ello creamos, activamos bit de ejecución y ejecutamos el siguiente script:
 
 ```bash
+#!/bin/bash
 echo -e ' Name=Packettracer
  Terminal=false
  Categories=Game
  Type=Application'\\n \
-Exec=~/.pt/packettracer\\n \
-Icon=~/.pt/art/app.png > packettracer
+Exec=~/ruta/al/ejecutable/packettracer\\n \
+Icon=~/ruta/al/icono.png > packettracer
 
 cut -d' ' -f2 packettracer > /usr/share/applications/packettracer.desktop
 sed -i '/Name=Packettracer/i [Desktop Entry]' /usr/share/applications/packettracer.desktop
 
 ```
-Halof!
 
-![_config.yml]({{ site.baseurl }}/images/packettracer.jpg) 
+Halof!!!
+
+![_config.yml]({{ site.baseurl }}/images/packettracer.jpeg)
+
 
 #### Notas
 *** 
 + El script de creación del atajo también podríamos haberlo anexado al final del script de instalación y así hacerlo todo de una tacada.
 + Añadir que este tutorial también se puede aplicar a derivadas de Ubuntu; de hecho yo he realizado todos los pasos arriba mencionados en **Zorin OS 12.3 64-bit** con **GNOME Shell 3.18.5** y ha funcionado perfectamente.
+
+#### Recursos de interés
+*** 
 
 **Web de Cisco:** <https://www.cisco.com/>
 
