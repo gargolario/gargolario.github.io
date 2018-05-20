@@ -3,7 +3,7 @@ layout: post
 title: Crear atajo a Packettracer en el menú de programas de Ubuntu 16.04
 date: 2018-05-20
 summary: Cómo lanzar el programa de simulación de redes de Cisco desde la GUI de Ubuntu 16.04
-categories: cisco programación
+categories: cisco, programación 
 author: Ale gargolario
 image: /images/packettracer.jpg
 tags:
@@ -55,7 +55,7 @@ Halof!
 #### Notas
 *** 
 + El script de creación del atajo también podríamos haberlo anexado al final del script de instalación y así hacerlo todo de una tacada.
-+ Añadir que este tutorial también se puede aplicar a derivadas de Ubuntu; de hecho yo he realizado todos los pasos arriba mencionados en Zorin OS 12.3 64-bit con GNOME Shell 3.18.5 y ha funcionado perfectamente.
++ Añadir que este tutorial también se puede aplicar a derivadas de Ubuntu; de hecho yo he realizado todos los pasos arriba mencionados en **Zorin OS 12.3 64-bit** con **GNOME Shell 3.18.5** y ha funcionado perfectamente.
 
 **Web de Cisco:** <https://www.cisco.com/>
 
