@@ -57,8 +57,10 @@ Halof!!!
 
 #### Notas
 *** 
++ Para instalar satisfactoriamente **Packettracer** necesitamos tener una cuenta activa en [Cisco Networking Academy](https://www.netacad.com/), pues nos pedirá nuestras credenciales la primera vez que iniciemos el programa.
 + El script de creación del atajo también podríamos haberlo anexado al final del script de instalación y así hacerlo todo de una tacada.
 + Añadir que este tutorial también se puede aplicar a derivadas de Ubuntu; de hecho yo he realizado todos los pasos arriba mencionados en **Zorin OS 12.3 64-bit** con **GNOME Shell 3.18.5** y ha funcionado perfectamente.
+
 
 #### Recursos de interés
 *** 
