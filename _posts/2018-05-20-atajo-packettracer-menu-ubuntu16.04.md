@@ -42,8 +42,8 @@ echo -e ' Name=Packettracer
  Terminal=false
  Categories=Game
  Type=Application'\\n \
-Exec=~/ruta/al/ejecutable/packettracer\\n \
-Icon=~/ruta/al/icono.png > packettracer
+Exec=/ruta/al/ejecutable/packettracer\\n \
+Icon=/ruta/al/icono.png > packettracer
 
 cut -d' ' -f2 packettracer > /usr/share/applications/packettracer.desktop
 sed -i '/Name=Packettracer/i [Desktop Entry]' /usr/share/applications/packettracer.desktop
