@@ -13,7 +13,7 @@ tags:
  - ubuntu
 ---
 
-[Vitashell](https://github.com/TheOfficialFloW/VitaShell/releases/) es un fantástico gestor de archivos para PSVita que nos permite conectar nuestra consola a nuestro ordenador vía FTP o USB. Si eres usuario de Ubuntu 16.04 Xenial, Zorin 12.3 (o cualquier otra derivada) y estás teniendo problemas a la hora de montar el sistema de archivos de la Vita por USB, sigue leyendo para solucionarlo: 
+[Vitashell](https://github.com/TheOfficialFloW/VitaShell/releases/) es un fantástico gestor de archivos para **PSVita** que nos permite conectar nuestra consola a nuestro ordenador vía **FTP** o **USB**. Si eres usuario de **Ubuntu 16.04 Xenial**, **Zorin 12.3** (o cualquier otra derivada) y estás teniendo problemas a la hora de montar el sistema de archivos de la Vita por USB, probablemente sea porque necesites compilar e instalar el módulo **exfat-nofuse**. Si es así, sigue leyendo para solucionarlo: 
 
 
 ### Descargamos las utilidades necesarias para descargar y compilar
@@ -77,5 +77,5 @@ echo exfat | sudo tee -a /etc/modules-load.d/exfat.conf
 #### Referencias
 ***
 
-** https://github.com/TheOfficialFloW/VitaShell/issues/178
-** https://gbatemp.net/threads/vita-shell-1-5-usb-on-linux-ubuntu.458713/
++ https://github.com/TheOfficialFloW/VitaShell/issues/178
++ https://gbatemp.net/threads/vita-shell-1-5-usb-on-linux-ubuntu.458713/
