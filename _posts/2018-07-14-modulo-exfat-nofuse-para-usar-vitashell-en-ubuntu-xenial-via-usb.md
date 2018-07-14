@@ -77,5 +77,5 @@ echo exfat | sudo tee -a /etc/modules-load.d/exfat.conf
 #### Referencias
 ***
 
-+ https://github.com/TheOfficialFloW/VitaShell/issues/178
-+ https://gbatemp.net/threads/vita-shell-1-5-usb-on-linux-ubuntu.458713/
++ <https://github.com/TheOfficialFloW/VitaShell/issues/178>
++ <https://gbatemp.net/threads/vita-shell-1-5-usb-on-linux-ubuntu.458713/>
