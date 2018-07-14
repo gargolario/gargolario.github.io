@@ -3,7 +3,7 @@ layout: post
 title: Módulo exfat-nofuse para usar Vitashell en Ubuntu xenial vía USB
 date: 2018-07-14
 summary: Compila el módulo y conecta tu consola por USB a GNU/Linux
-categories: zorin 
+categories: zorin
 author: Ale gargolario
 image: /images/vita.png
 tags:
