@@ -1,0 +1,98 @@
+---
+layout: post
+title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
+date: 2019-04-19
+summary: Controla que las temperaturas más importantes de tu ordenador están dentro de rangos deseables
+categories: miscelánea
+author: Ale gargolario
+image: /images/terminal-suse.png
+tags:
+ - cpu
+ - temperatura
+ - gpu
+ - watch
+ - nvidia
+---
+
+Si le das bastante caña a tu ordenador con GNU/Linux (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
+Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar -- vía terminal -- las temperaturas de CPU y de GPU. En ambos casos usaremos el comando `watch`, que sirve para realizar medidas con la frecuencia -- en segundos -- que nosostros le indiquemos:
+
+### Temperatura de CPU
+
+```bash
+watch -n 2 sensors
+```
+Lo cual nos dará algo similar a lo siguiente (y se irá actualizando cada 2 segundos):
+
+```bash
+Cada 2,0s: sensors
+
+iwlwifi-virtual-0
+Adapter: Virtual device
+temp1:        +39.0°C  
+
+acpitz-virtual-0
+Adapter: Virtual device
+temp1:        +27.8°C  (crit = +119.0°C)
+temp2:        +29.8°C  (crit = +119.0°C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +37.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 0:        +35.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 1:        +35.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 2:        +33.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 3:        +36.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 4:        +37.0°C  (high = +82.0°C, crit = +100.0°C)
+Core 5:        +35.0°C  (high = +82.0°C, crit = +100.0°C)
+```
+
+Entre otras cosas, podemos observar que tenemos 5 `cores` cuya temperatura más alta actualmente es 37.0ºC (entre paréntesis se nos indica que las temperaturas se consideran altas a partir de 82ºC, y críticas a partir de 100ºC).
+
+### Temperatura de GPU
+
+```bash
+watch -n 2 nvidia-smi
+```
+
+Al igual que con la CPU, obtendremos -- cada 2 segundos -- algo como esto:
+
+
+
+```bash
+Cada 2,0s: nvidia-smi
+
+Fri Apr 19 20:45:30 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.56       Driver Version: 418.56       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 106...  Off  | 00000000:01:00.0  On |                  N/A |
+|  0%   54C    P8    10W / 120W |    433MiB /  6077MiB |      4%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1557      G   /usr/lib/xorg/Xorg                           190MiB |
+|    0      1820      G   /usr/bin/gnome-shell                         174MiB |
+|    0      7820      G   ...equest-channel-token=303407235874180773    65MiB |
++-----------------------------------------------------------------------------+
+```
+Entre otras cosas, en el cuadro anterior podemos observar que nuestra tarjeta gráfica GTX 1060:
+
++ está usando la version del controlador 418.56
++ está a 54.0ºC de temperatura con el ventilador al 0% 
++ está consumiendo 10W (por lo que queda claro que no estamos jugando)
++ está utilizando 433 MB de memoria de un total de 6 GB (de nuevo, queda claro que la gráfica no está realizando trabajos pesados)
++ la memoria en uso la están utilizando 3 procesos cuyos identificadores son, respectivamente, 1557, 1820 y 7820.
+
+
+Halof!!!
+
+
+![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
+
