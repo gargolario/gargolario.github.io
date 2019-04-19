@@ -10,8 +10,6 @@ tags:
  - cpu
  - temperatura
  - gpu
- - watch
- - nvidia
 ---
 
 Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
@@ -84,7 +82,7 @@ Fri Apr 19 20:45:30 2019
 +-----------------------------------------------------------------------------+
 ```
 
-Entre otras cosas, en el cuadro anterior podemos observar que nuestra tarjeta gráfica GTX 1060:
+Entre otras cosas, en el cuadro anterior podemos observar que nuestra tarjeta gráfica NVIDIA GTX 1060:
 
 + está usando la version del controlador 418.56
 + está a 54.0ºC de temperatura con el ventilador al 0% 
