@@ -49,6 +49,8 @@ Core 5:        +35.0°C  (high = +82.0°C, crit = +100.0°C)
 
 Entre otras cosas, podemos observar que tenemos 5 `cores` cuya temperatura más alta actualmente es 37.0ºC (entre paréntesis se nos indica que las temperaturas se consideran altas a partir de 82ºC, y críticas a partir de 100ºC).
 
+
+
 ### Temperatura de GPU
 
 ```bash
@@ -56,7 +58,6 @@ watch -n 2 nvidia-smi
 ```
 
 Al igual que con la CPU, obtendremos -- cada 2 segundos -- algo como esto:
-
 
 
 ```bash
