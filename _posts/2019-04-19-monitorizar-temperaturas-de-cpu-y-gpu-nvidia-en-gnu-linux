@@ -1,17 +1,5 @@
 ---
 layout: post
-title: Cambiar de pestaña en Konsole y gnome-terminal
-date: 2018-03-08
-summary: Atajos de teclado para movernos cómodamente de una pestaña a otra
-categories: miscelánea
-author: Ale gargolario
-image: /images/terminal-suse.png
-tags:
- - konsole
- - gnometerminal
----
----
-layout: post
 title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
 date: 2019-04-19
 summary: Controla que las temperaturas más importantes de tu ordenador están dentro de rangos deseables
@@ -27,7 +15,7 @@ tags:
 ---
 
 Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
-Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar -- vía terminal -- las temperaturas de CPU y de GPU. En ambos casos usaremos el comando `watch`, que sirve para realizar medidas con la frecuencia -- en segundos -- que nosostros le indiquemos:
+Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando **watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos:
 
 ### Temperatura de CPU
 
@@ -60,7 +48,7 @@ Core 4:        +37.0°C  (high = +82.0°C, crit = +100.0°C)
 Core 5:        +35.0°C  (high = +82.0°C, crit = +100.0°C)
 ```
 
-Entre otras cosas, podemos observar que tenemos 5 `cores` cuya temperatura más alta actualmente es 37.0ºC (entre paréntesis se nos indica que las temperaturas se consideran altas a partir de 82ºC, y críticas a partir de 100ºC).
+Entre otras cosas, podemos observar que tenemos 5 **cores** cuya temperatura más alta actualmente es 37.0ºC (entre paréntesis se nos indica que las temperaturas se consideran altas a partir de 82ºC, y críticas a partir de 100ºC).
 
 
 
@@ -70,7 +58,7 @@ Entre otras cosas, podemos observar que tenemos 5 `cores` cuya temperatura más 
 watch -n 2 nvidia-smi
 ```
 
-Al igual que con la CPU, obtendremos -- cada 2 segundos -- algo como esto:
+Al igual que con la CPU, obtendremos (cada 2 segundos) algo como esto:
 
 ```bash
 Cada 2,0s: nvidia-smi
