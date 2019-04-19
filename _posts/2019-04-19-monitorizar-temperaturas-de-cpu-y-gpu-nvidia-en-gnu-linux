@@ -3,7 +3,7 @@ layout: post
 title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
 date: 2019-04-19
 summary: Controla que las temperaturas más importantes de tu ordenador están dentro de rangos deseables
-categories: miscelanea
+categories: miscelánea
 author: Ale gargolario
 image: /images/terminal-suse.png
 tags:
@@ -22,6 +22,7 @@ Pues bien, en la presente entrada de blog veremos un par de comandos para monito
 ```bash
 watch -n 2 sensors
 ```
+
 Lo cual nos dará algo similar a lo siguiente (y se irá actualizando cada 2 segundos):
 
 ```bash
@@ -59,7 +60,6 @@ watch -n 2 nvidia-smi
 
 Al igual que con la CPU, obtendremos -- cada 2 segundos -- algo como esto:
 
-
 ```bash
 Cada 2,0s: nvidia-smi
 
@@ -83,6 +83,7 @@ Fri Apr 19 20:45:30 2019
 |    0      7820      G   ...equest-channel-token=303407235874180773    65MiB |
 +-----------------------------------------------------------------------------+
 ```
+
 Entre otras cosas, en el cuadro anterior podemos observar que nuestra tarjeta gráfica GTX 1060:
 
 + está usando la version del controlador 418.56
