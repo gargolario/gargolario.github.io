@@ -10,6 +10,8 @@ tags:
  - cpu
  - temperatura
  - gpu
+ - watch
+ - nvidia
 ---
 
 Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
