@@ -1,70 +1,45 @@
-
 ---
 layout: post
-title: Monitorizar temperaturas de CPU y GPU NVIDIA en Linux
+title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
 date: 2019-04-19
-summary: Compila el módulo y conecta tu consola por USB a GNU/Linux
-categories: zorin
+summary: Controla que las temperaturas más importantes de tu ordenador están dentro de rangos deseables
+categories: miscelánea
 author: Ale gargolario
-image: /images/vita.png
+image: /images/terminal-suse.png
 tags:
- - psvita
- - zorin
- - exfat-nofuse
- - ubuntu
+- cpu
+- temperatura
+- gpu
+- watch
+- nvidia
 ---
 
-[Vitashell](https://github.com/TheOfficialFloW/VitaShell/releases/) es un fantástico gestor de archivos para **PSVita** que nos permite conectar nuestra consola a nuestro ordenador vía **FTP** o **USB**. Si eres usuario de **Ubuntu 16.04 Xenial**, **Zorin 12.3** (o cualquier otra derivada) y estás teniendo problemas a la hora de montar el sistema de archivos de la Vita por USB, probablemente sea porque necesites compilar e instalar el módulo **exfat-nofuse**. Si es así, sigue leyendo para solucionarlo: 
+Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calenta\
+rse la tarjeta gráfica o el procesdor.
+Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando *\
+*watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos:
 
-
-### Descargamos las utilidades necesarias para descargar y compilar
-
-```bash
-sudo apt-get install build-essential git linux-headers
-```
-
-### Clonamos el repositorio exfat-nofuse
+### Temperatura de CPU
 
 ```bash
-git clone https://github.com/rxrz/exfat-nofuse.git
+watch -n 2 sensors
 ```
 
-### Nos movemos a él
+Lo cual nos dará algo similar a lo siguiente (y se irá actualizando cada 2 segundos):
 
 ```bash
-cd exfat-nofuse/
-```
-### Nos hacemos **root**
+Cada 2,0s: sensors
 
-```bash
-sudo su
-```
-### Compilamos e instalamos el módulo
+iwlwifi-virtual-0
+Adapter: Virtual device
+temp1:        +39.0°C
 
-```bash
-make && make install
-```
+acpitz-virtual-0
+Adapter: Virtual device
+temp1:        +27.8°C  (crit = +119.0°C)
+temp2:        +29.8°C  (crit = +119.0°C)
 
-### Volvemos a nuestro usuario normal
-
-```bash
-exit
-```
-### Desinstalamos los paquetes **exfat-fuse** y **exfat-utils** (módulo y utilidades respectivamente) para evitar conflictos 
-
-```bash
-sudo apt-get remove exfat-fuse exfat-utils
-```
-
-### Cargamos el módulo que hemos compilado
-
-```bash
-sudo modprobe exfat
-```
-¡Ya puedes conectar tu consola y empezar a gestionar archivos!
-
-
-Halof!!!
-
-
-![_config.yml]({{ site.baseurl }}/images/vita.png)
+coretemp-isa-0000
+Adapter: ISA adapter
+-UUU:**--F1  monitor-temps.github   Top L1     (Fundamental) ---------------------------------------------------------------------------------------------------------------
+Mark set
