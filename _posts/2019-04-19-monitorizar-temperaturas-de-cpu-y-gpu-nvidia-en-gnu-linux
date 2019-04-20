@@ -1,18 +1,3 @@
----
-layout: post
-title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
-date: 2019-04-19
-summary: Controla que las temperaturas más importantes de tu ordenador están dentro de rangos deseables
-categories: miscelánea
-author: Ale gargolario
-image: /images/terminal-suse.png
-tags:
- - cpu
- - temperatura
- - gpu
- - watch
- - nvidia
----
 
 Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
 Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando **watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos:
