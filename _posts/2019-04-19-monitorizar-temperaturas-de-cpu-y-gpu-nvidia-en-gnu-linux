@@ -1,40 +1,70 @@
 
-Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
-Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando **watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos:
+---
+layout: post
+title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
+date: 2019-04-19
+summary: Compila el módulo y conecta tu consola por USB a GNU/Linux
+categories: zorin
+author: Ale gargolario
+image: /images/vita.png
+tags:
+ - psvita
+ - zorin
+ - exfat-nofuse
+ - ubuntu
+---
 
-### Temperatura de CPU
+[Vitashell](https://github.com/TheOfficialFloW/VitaShell/releases/) es un fantástico gestor de archivos para **PSVita** que nos permite conectar nuestra consola a nuestro ordenador vía **FTP** o **USB**. Si eres usuario de **Ubuntu 16.04 Xenial**, **Zorin 12.3** (o cualquier otra derivada) y estás teniendo problemas a la hora de montar el sistema de archivos de la Vita por USB, probablemente sea porque necesites compilar e instalar el módulo **exfat-nofuse**. Si es así, sigue leyendo para solucionarlo: 
+
+
+### Descargamos las utilidades necesarias para descargar y compilar
 
 ```bash
-watch -n 2 sensors
+sudo apt-get install build-essential git linux-headers
 ```
 
-Lo cual nos dará algo similar a lo siguiente (y se irá actualizando cada 2 segundos):
-
-
-Entre otras cosas, podemos observar que tenemos 5 **cores** cuya temperatura más alta actualmente es 37.0ºC (entre paréntesis se nos indica que las temperaturas se consideran altas a partir de 82ºC, y críticas a partir de 100ºC).
-
-
-
-### Temperatura de GPU
+### Clonamos el repositorio exfat-nofuse
 
 ```bash
-watch -n 2 nvidia-smi
+git clone https://github.com/rxrz/exfat-nofuse.git
 ```
 
-Al igual que con la CPU, obtendremos (cada 2 segundos) algo como esto:
+### Nos movemos a él
 
+```bash
+cd exfat-nofuse/
+```
+### Nos hacemos **root**
 
-Entre otras cosas, en el cuadro anterior podemos observar que nuestra tarjeta gráfica NVIDIA GTX 1060:
+```bash
+sudo su
+```
+### Compilamos e instalamos el módulo
 
-+ está usando la version del controlador 418.56
-+ está a 54.0ºC de temperatura con el ventilador al 0% 
-+ está consumiendo 10W (por lo que queda claro que no estamos jugando)
-+ está utilizando 433 MB de memoria de un total de 6 GB (de nuevo, queda claro que la gráfica no está realizando trabajos pesados)
-+ la memoria en uso la están utilizando 3 procesos cuyos identificadores son, respectivamente, 1557, 1820 y 7820.
+```bash
+make && make install
+```
+
+### Volvemos a nuestro usuario normal
+
+```bash
+exit
+```
+### Desinstalamos los paquetes **exfat-fuse** y **exfat-utils** (módulo y utilidades respectivamente) para evitar conflictos 
+
+```bash
+sudo apt-get remove exfat-fuse exfat-utils
+```
+
+### Cargamos el módulo que hemos compilado
+
+```bash
+sudo modprobe exfat
+```
+¡Ya puedes conectar tu consola y empezar a gestionar archivos!
 
 
 Halof!!!
 
 
-![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
-
+![_config.yml]({{ site.baseurl }}/images/vita.png)
