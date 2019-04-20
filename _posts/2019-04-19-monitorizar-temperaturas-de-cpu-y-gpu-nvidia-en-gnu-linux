@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Monitorizar temperaturas de CPU y GPU NVIDIA en GNU/Linux
+title: Monitorizar temperaturas de CPU y GPU NVIDIA en Linux
 date: 2019-04-19
 summary: Compila el módulo y conecta tu consola por USB a GNU/Linux
 categories: zorin
