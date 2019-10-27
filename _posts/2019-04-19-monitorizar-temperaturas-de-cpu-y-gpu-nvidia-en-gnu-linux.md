@@ -16,7 +16,7 @@ tags:
 
 Si le das bastante caña a tu ordenador con **GNU/Linux** (bien por que te guste jugar, bien porque diseñes), seguro que te habrás preguntado cuánto pueden llegar a calentarse la tarjeta gráfica o el procesdor.
 
-Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando **watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos:
+Pues bien, en la presente entrada de blog veremos un par de comandos para monitorizar (vía terminal) las temperaturas de CPU y de GPU. En ambos casos usaremos el comando **watch**, que sirve para realizar medidas con la frecuencia (en segundos) que nosostros le indiquemos. Si no lo tienes ya disponible en tu sistema, deberás instalar el paquete `lm-sensors` y ejecutar -- con `sudo` -- el comando `sensors-detect`.
 
 ### Temperatura de CPU
 
@@ -41,6 +41,8 @@ Core 5:        +32.0°C  (high = +82.0°C, crit = +100.0°C)
 La salida anterior nos permite ver la temperatura en tiempo real de cada uno de los 6 núcleos del procesador. Asi mismo, se nos informa tanto de los valores altos (`+82.0ºC`) como de los críticos (`+100.0ºC`).
 
 ### Temperatura de GPU Nvidia
+
+Para disponer de la utilidad que vamos a utilizar (`nvidia-smi`) debes instalar el driver de Nvidia en tu distribución. Una vez lo hayas hecho, lanzaremos el siguiente comando:
 
 ```bash
 watch nvidia-smi
