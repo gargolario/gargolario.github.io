@@ -75,15 +75,17 @@ Bueno, espero que te sea de utilidad.
 
 Halof!
 
-![_config.yml]({{ site.baseurl }}/images/terminal.png)
+![_config.yml]({{ site.baseurl }}/images/terminal-suse.png)
 
 #### Notas y otros comandos interesantes
 
 + Para comprobar qué tarjeta gráfica tienes instalada: `lspci -v |grep VGA`
 
-+ Ver drivers disponibles para tu tarjeta gráfica: `sudo ubuntu-drivers list` y `sudo ubuntu-drivers devices`
++ Ver drivers disponibles para tu tarjeta gráfica en Ubuntu y derivadas: `sudo ubuntu-drivers list` y `sudo ubuntu-drivers devices`
 
 + La frecuencia de actualización del comando `watch` (2 segundos por defecto) se puede modificar con la opción `-n` y el número de segundos que deseemos (eg: `-n 4`).
 
-+ CUDA es el acrónimo de Compute Unified Device Architecture (Arquitectura Unificada de Dispositivos de Cómputo). Se trata de una plataforma creada por Nvidia que incluye un compilador y otras herramientas para que, usando una variación del lenguaje C, los programadores codifiquen algoritmos en las GPU.
++ CUDA es el acrónimo de _Compute Unified Device Architecture_ (_Arquitectura Unificada de Dispositivos de Cómputo_). Se trata de una plataforma creada por Nvidia que incluye un compilador y otras herramientas para que, usando una variación del lenguaje C, los programadores codifiquen algoritmos en las GPU.
+
++ Otra publicación similar en **It's Foss**: <https://itsfoss.com/monitor-cpu-gpu-temp-linux/>
 
