@@ -19,12 +19,12 @@ Como sabrás, la personalización en **emacs** tampoco conoce límites y así lo
 
 ### Usar la posición del cursor
 
-Mueve el cursor (o _punto_) a una parte del texto al que quieras cambiar el color. Una vez ahí, utiliza la combinación de teclas <kbd>CTRL</kbd>-<kbd>u</kbd><kbd>CTRL</kbd>-<kbd>x</kbd><kbd>=</kbd> que ejecutará la función `what-cursor-position` con el argumento _detalle_. Ya puedes moverte al nuevo búfer y navegar por él para realizar los cambios.
+Mueve el cursor (o _punto_) a una parte del texto al que quieras cambiar el color. Una vez ahí, utiliza la combinación de teclas <kbd>CTRL</kbd>-<kbd>u</kbd>+<kbd>CTRL</kbd>-<kbd>x</kbd>+<kbd>=</kbd> que ejecutará la función `what-cursor-position` con el argumento _detalle_. Ya puedes moverte al nuevo búfer y navegar por él para realizar los cambios.
 
 
 ### Mostrar la lista completa de fuentes 
 
-Con esta segunda opción puedes ver la lista de todas las fuentes (o _faces_ en la jerga de **emacs**) y -- a partir de ahí -- editarlas. Para ello, utiliza lo siguiente: <kbd>M</kbd>`list-faces-display`<kbd>RET</kbd>.
+Con esta segunda opción puedes ver la lista de todas las fuentes (o _faces_ en la jerga de **emacs**) y -- a partir de ahí -- editarlas. Para ello, utiliza lo siguiente: <kbd>M</kbd> `list-faces-display` <kbd>RET</kbd>.
 
 
 Espero que te sirvan estos pequeños consejos.
